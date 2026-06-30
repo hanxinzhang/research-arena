@@ -1,0 +1,15 @@
+{
+  "id": "referee_2",
+  "role": "Referee",
+  "display_name": "Referee 2",
+  "style_reference": "Nature Communications recent research articles: https://www.nature.com/ncomms/research-articles",
+  "review_emphasis": [
+    "originality",
+    "creativity",
+    "citation quality",
+    "visual and table presentation",
+    "manuscript clarity",
+    "broad scientific readability"
+  ],
+  "scoring_guidance": "Score creativity, originality, presentation, clarity, evidence, integrity, citation quality, and limitations on a 0 to 1 scale."
+}

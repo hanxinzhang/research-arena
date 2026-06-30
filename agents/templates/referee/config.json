@@ -1,0 +1,15 @@
+{
+  "id": "referee_N",
+  "role": "Referee",
+  "display_name": "Referee N",
+  "style_reference": "Recent relevant scientific articles and clean journal figures/tables",
+  "review_emphasis": [
+    "creativity",
+    "originality",
+    "evidence strength",
+    "citation quality",
+    "manuscript clarity",
+    "limitations"
+  ],
+  "scoring_guidance": "Score creativity, originality, presentation, clarity, evidence, integrity, citation quality, and limitations on a 0 to 1 scale."
+}

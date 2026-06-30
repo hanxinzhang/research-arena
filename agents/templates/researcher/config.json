@@ -1,0 +1,14 @@
+{
+  "id": "researcher_N",
+  "role": "Researcher",
+  "display_name": "Researcher N",
+  "research_style": "distinctive, bounded, and reproducible",
+  "preferred_analysis_families": [
+    "predictive",
+    "associative",
+    "descriptive",
+    "causal-sensitivity",
+    "methodological"
+  ],
+  "creativity_brief": "Generate one bounded original idea that differs from the other Researchers while using the same shared dataset and safety rules."
+}

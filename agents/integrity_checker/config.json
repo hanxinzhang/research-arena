@@ -1,0 +1,21 @@
+{
+  "id": "integrity_checker",
+  "role": "Reproducibility/Integrity Checker",
+  "display_name": "Integrity Checker",
+  "required_checks": [
+    "analysis_script_executed",
+    "results_match_claim",
+    "focal_variable_not_used_as_predictor",
+    "data_leakage_screen",
+    "p_hacking_guard_present",
+    "analysis_plan_present",
+    "literature_notes_present_when_used",
+    "originality_plagiarism_screen",
+    "citation_integrity_screen",
+    "claim_evidence_alignment_screen",
+    "selective_reporting_screen",
+    "manuscript_has_required_sections",
+    "text_only_pdf_exists",
+    "presentation_artifacts_exist"
+  ]
+}
