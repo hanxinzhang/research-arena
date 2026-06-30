@@ -19,6 +19,7 @@
       .section { font: 700 13px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: .08em; fill: #68737B; text-anchor: middle; }
       .box-title { font: 700 20px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #1D2A32; text-anchor: middle; }
       .box-text { font: 400 15px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #44525C; text-anchor: middle; }
+      .box-text-tight { font: 400 14px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #44525C; text-anchor: middle; }
       .small { font: 400 13px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #5A6670; text-anchor: middle; }
       .white-text { font: 700 21px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #FFFFFF; text-anchor: middle; }
       .arrow { stroke: #65737A; stroke-width: 2.4; fill: none; marker-end: url(#arrowhead); stroke-linecap: butt; stroke-linejoin: round; }
@@ -46,10 +47,11 @@
   <text x="170" y="348" class="small">reads AGENTS.md</text>
 
   <rect x="325" y="225" width="180" height="150" rx="12" class="box green"/>
-  <text x="415" y="266" class="box-title">Shared resources</text>
-  <text x="415" y="296" class="box-text">Data, rules, prompts,</text>
-  <text x="415" y="318" class="box-text">and literature context</text>
-  <text x="415" y="348" class="small">no shared target required</text>
+  <text x="415" y="256" class="box-title">Shared</text>
+  <text x="415" y="280" class="box-title">resources</text>
+  <text x="415" y="309" class="box-text">Data, rules,</text>
+  <text x="415" y="331" class="box-text">prompts, literature</text>
+  <text x="415" y="353" class="small">no shared target required</text>
 
   <rect x="580" y="225" width="180" height="150" rx="12" class="box white"/>
   <text x="670" y="266" class="box-title">Researchers</text>
@@ -86,7 +88,8 @@
 
   <rect x="485" y="575" width="630" height="96" rx="12" class="box blue"/>
   <text x="800" y="610" class="box-title">Core protocol rules</text>
-  <text x="800" y="640" class="box-text">Original ideas, cited literature, reproducible Python analysis, no leakage, no plagiarism.</text>
+  <text x="800" y="638" class="box-text-tight">Original ideas, cited literature, reproducible Python analysis,</text>
+  <text x="800" y="660" class="box-text-tight">no leakage, no plagiarism.</text>
 
   <rect x="1180" y="575" width="245" height="96" rx="12" class="box dark"/>
   <text x="1302" y="614" class="white-text">Published</text>
