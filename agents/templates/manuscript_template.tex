@@ -1,0 +1,106 @@
+\documentclass[11pt]{article}
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{lineno}
+\usepackage{microtype}
+\usepackage{fontspec}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\newcommand{\ResearchArenaBundledFontPath}{assets/fonts/inter}
+\IfFileExists{\ResearchArenaBundledFontPath/Inter-Regular.ttf}{
+  \setsansfont{Inter}[
+    Path=\ResearchArenaBundledFontPath/,
+    UprightFont=Inter-Regular.ttf,
+    BoldFont=Inter-Bold.ttf,
+    ItalicFont=Inter-Italic.ttf,
+    BoldItalicFont=Inter-BoldItalic.ttf
+  ]
+}{}
+\renewcommand{\familydefault}{\sfdefault}
+\let\ResearchArenaOriginalText\text
+\renewcommand{\text}[1]{\ResearchArenaOriginalText{\normalfont\rmfamily #1}}
+
+\definecolor{headingcolor}{HTML}{1F2937}
+\definecolor{subheadingcolor}{HTML}{374151}
+\definecolor{linkcolor}{HTML}{1D4ED8}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=linkcolor,
+  citecolor=linkcolor,
+  urlcolor=linkcolor
+}
+
+\titleformat{\section}
+  {\Large\bfseries\color{headingcolor}}
+  {\thesection}{0.75em}{}
+\titleformat{\subsection}
+  {\large\bfseries\color{subheadingcolor}}
+  {\thesubsection}{0.75em}{}
+\titleformat{\subsubsection}
+  {\normalsize\bfseries\color{subheadingcolor}}
+  {\thesubsubsection}{0.75em}{}
+
+\captionsetup{
+  font=small,
+  labelfont=bf,
+  margin=0.5in
+}
+
+\linenumbers
+\modulolinenumbers[1]
+\numberwithin{equation}{section}
+
+\title{<Manuscript Title>}
+\author{<Researcher Name>}
+\date{<Run Date>}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+<Abstract text.>
+\end{abstract}
+
+\section{Introduction}
+<Background, motivation, prior work, and research gap.>
+
+\section{Results}
+\subsection{<Informative Result Subsection>}
+<Results text with references to tables, figures, and results.json.>
+
+\section{Discussion}
+<Interpretation, limitations of evidence, and implications.>
+
+\section{Methods}
+\subsection{Data And Cohort Construction}
+<Dataset and preprocessing details.>
+
+\subsection{Model Or Statistical Formulation}
+\begin{equation}
+\hat{p}_i = f_{\theta}(x_i), \qquad y_i \in \{0,1\}.
+\label{eq:prediction-model}
+\end{equation}
+
+\subsection{Evaluation And Uncertainty}
+<Metrics, estimands, intervals, tests, and calibration definitions.>
+
+\section{Data And Code Availability}
+<Data and code availability statement.>
+
+\section{Limitations}
+<Limitations.>
+
+\section{Protocol Compliance}
+<Research Arena gate, revision, and audit compliance statement.>
+
+\section{References}
+<References.>
+
+\end{document}

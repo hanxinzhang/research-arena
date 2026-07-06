@@ -1,0 +1,133 @@
+{
+  "created_at_utc": "2026-07-05T20:40:57.225257+00:00",
+  "files": [
+    {
+      "bytes": 11286,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_00/analysis.py",
+      "sha256": "e889546e4c74a223391207dfe24fd22ad6cd095a8e246de7cf792bf6488868f9"
+    },
+    {
+      "bytes": 547,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_00/analysis_plan.md",
+      "sha256": "78b0c38aaf87acd44994285172e17ee84451d3283139952cae84b120c693a9ec"
+    },
+    {
+      "bytes": 445,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_00/compute_log.csv",
+      "sha256": "ea6f61b40767ea84627880842f39fbd354542bdf203b14197ad999f5c1dd41fc"
+    },
+    {
+      "bytes": 10591,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_00/display_item_explanations.md",
+      "sha256": "1c575ffa9ac7bb97a90527bbe54b4b0d8d805785c1a26dafaebf702989d27f63"
+    },
+    {
+      "bytes": 301,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_00/eda_report.md",
+      "sha256": "d4f76288e42f0d3cd359cbb452a71783ba5c0b71356173fca1cf4b217c379149"
+    },
+    {
+      "bytes": 513,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_00/experiment_registry.csv",
+      "sha256": "18052b2b61f96b365494822079a1828b17d4edc3aadc0d883d82a5c8f05c1a49"
+    },
+    {
+      "bytes": 15745,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_00/figures/figure_1_roc_curves.pdf",
+      "sha256": "5fcd3ccf58fc82636a1fa22c7f3c364146955b1afc4a5a8f53e62cc123ce7625"
+    },
+    {
+      "bytes": 12134,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_00/figures/figure_2_coefficient_profile.pdf",
+      "sha256": "6414ba5dca33fe0a8a3330c681d250241281e5556d28b43017427b83b3c5f920"
+    },
+    {
+      "bytes": 12651,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_00/figures/figure_3_negative_control.pdf",
+      "sha256": "6aa41b76688a1177da6838e77d3dee6293e8c41561d4521c9b551c00fc6f4557"
+    },
+    {
+      "bytes": 618,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_00/literature_notes.md",
+      "sha256": "dfc68a8e6a70526c3dabcac7b1bb882505ce78bcf6b32851790806462a83244d"
+    },
+    {
+      "bytes": 9026,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_00/manuscript.md",
+      "sha256": "878120b5ef73ed370a85190acbc95f99f2e8ef0222175e60a98430a988d0791e"
+    },
+    {
+      "bytes": 39074,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_00/manuscript.pdf",
+      "sha256": "62d677b3e494e1d1bfbba513ca093f97db99334f4ac6a68fb702607ac778cf56"
+    },
+    {
+      "bytes": 912,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_00/manuscript_render_report.json",
+      "sha256": "4d5e384b9d018a159e1a62316ef7087dc4e08cdfb4cba328ce2b574ddc269cc6"
+    },
+    {
+      "bytes": 1493,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_00/manuscript_style_manifest.md",
+      "sha256": "0062e91c6c341258329b3c674f8626c266a13f2413d1b7ee61c14c41a7d5f64c"
+    },
+    {
+      "bytes": 306,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_00/model_or_method_cards.md",
+      "sha256": "6296530d4e4b6d9634b4b6fb4d264bfe0a759748990181aa560277df2ea30ec5"
+    },
+    {
+      "bytes": 2182,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_00/presentation_checklist.md",
+      "sha256": "e4af270f37943fdf2de6136ad95d9eded731bb4c8af2cc2c74fd7441c26d7f0e"
+    },
+    {
+      "bytes": 943,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_00/proposal.md",
+      "sha256": "7e96eaa333218928482ac7f75ca4c7b385eefbcfc11fe44a0a05ecd567e2e89f"
+    },
+    {
+      "bytes": 341,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_00/research_dossier.md",
+      "sha256": "d6bd4ec58a7e52eff7ad47df4fe91e1635e17e4a5f7e01ca7858d4af79d5bcb7"
+    },
+    {
+      "bytes": 1762,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_00/results.json",
+      "sha256": "264757a8d1c076f3d4d4075ce564484331daaa6930c7a519adbd13451c1db02a"
+    },
+    {
+      "bytes": 327,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_00/revision_plan.md",
+      "sha256": "c45e67d83652382c84a4cb5131787bc80aa4b1c19e8eb4e41e05b9f49fa3a910"
+    },
+    {
+      "bytes": 1762,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_00/stable_results.json",
+      "sha256": "264757a8d1c076f3d4d4075ce564484331daaa6930c7a519adbd13451c1db02a"
+    },
+    {
+      "bytes": 277,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_00/tables/coefficient_table.csv",
+      "sha256": "738eed8241b82ff77f186bbf376a11723c540d9b552c663f5514bfa05e0f73de"
+    },
+    {
+      "bytes": 199,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_00/tables/model_metric_summary.csv",
+      "sha256": "e536dfd6955278f972c72912f5e35a9ab8ae9b9d4f2588458e9cd8854d2fefdd"
+    },
+    {
+      "bytes": 161,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_00/tables/permutation_control.csv",
+      "sha256": "c1925b03ad7022717ff8740ee896f08f8470edd7e7f1cb8cabbcc76f22dda1a9"
+    },
+    {
+      "bytes": 99,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_00/tables/target_sensitivity.csv",
+      "sha256": "9a99676a7d6e13cf59b3d995655dd2795c3026c73fa971afc85753d2f6a76591"
+    }
+  ],
+  "revision": "revision_00",
+  "run_id": "oasis_demo",
+  "submission": "submission_002_researcher_2"
+}

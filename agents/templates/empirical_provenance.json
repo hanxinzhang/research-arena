@@ -1,0 +1,12 @@
+{
+  "current_revision": "revision_<NN>",
+  "empirical_status": "<rerun_current_revision | copied_forward | unchanged_from_previous | not_applicable_initial>",
+  "source_revision": "<revision_<MM> or not_applicable>",
+  "analysis_script_status": "<rerun_current_revision | copied_forward | unchanged_from_previous>",
+  "results_status": "<rerun_current_revision | copied_forward | unchanged_from_previous>",
+  "compute_log_status": "<rerun_current_revision | copied_forward | unchanged_from_previous>",
+  "stable_results_path": "<stable_results.json or not_applicable>",
+  "changed_empirical_files": [],
+  "unchanged_empirical_files": [],
+  "reason": "<why empirical evidence was rerun, copied forward, or intentionally unchanged>"
+}

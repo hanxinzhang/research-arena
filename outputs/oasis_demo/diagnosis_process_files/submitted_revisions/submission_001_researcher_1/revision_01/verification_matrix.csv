@@ -1,0 +1,3 @@
+issue_id,source_agent,owning_reviewer,author_claim,evidence_path,reviewer_checked,verification_status,verification_note,question_answered,remaining_action
+R1-MAJOR-01,referee_1,referee_1,The nonzero CDR model includes calibration evidence.,tables/calibration_table.csv; figures/figure_3_calibration.pdf,true,verified_resolved,Calibration bins were checked against the plotted calibration panel.,true,none
+R1-MINOR-02,referee_3,referee_3,The manuscript limits claims to an internal compact demo.,stable_results.json; manuscript.md,true,verified_resolved,The Discussion and Limitations sections avoid clinical deployment claims.,true,none

@@ -1,0 +1,99 @@
+
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{microtype}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\IfFileExists{assets/fonts/inter/Inter-Regular.ttf}{
+  \setsansfont{Inter}[
+    Path=assets/fonts/inter/,
+    UprightFont=Inter-Regular.ttf,
+    BoldFont=Inter-Bold.ttf,
+    ItalicFont=Inter-Italic.ttf,
+    BoldItalicFont=Inter-BoldItalic.ttf
+  ]
+}{}
+\renewcommand{\familydefault}{\sfdefault}
+\let\ResearchArenaOriginalText\text
+\renewcommand{\text}[1]{\ResearchArenaOriginalText{\normalfont\rmfamily #1}}
+
+\definecolor{RAAccent}{HTML}{2C7FB8}
+\definecolor{RAGreen}{HTML}{2A9D8F}
+\definecolor{RADark}{HTML}{1F2937}
+\definecolor{RAMuted}{HTML}{4B5563}
+\definecolor{RALogoDivider}{HTML}{D7E3EC}
+\definecolor{RALight}{HTML}{E5EEF4}
+\hypersetup{colorlinks=true, linkcolor=RAAccent, citecolor=RAAccent, urlcolor=RAAccent}
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.52em}
+\setlength{\leftmargini}{1.25em}
+\setlength{\leftmarginii}{1.55em}
+\setlength{\labelsep}{0.42em}
+\makeatletter
+\renewcommand{\@listi}{%
+  \leftmargin\leftmargini
+  \parsep 0pt
+  \topsep 0.18em
+  \itemsep 0.16em
+}
+\let\@listI\@listi
+\renewcommand{\@listii}{%
+  \leftmargin\leftmarginii
+  \parsep 0pt
+  \topsep 0.12em
+  \itemsep 0.10em
+}
+\makeatother
+\linespread{1.04}
+
+\newenvironment{RAAbstractBox}{
+  \par\vspace{0.7em}\noindent
+  \begin{minipage}{\linewidth}
+  {\sffamily\bfseries\color{RAAccent} Abstract}\par\vspace{0.25em}\small
+  \setlength{\leftskip}{0.7em}
+  \setlength{\rightskip}{0.7em}
+}{%
+  \end{minipage}
+  \par\vspace{1.1em}
+}
+
+\titleformat{\section}
+  {\Large\bfseries\sffamily\color{RADark}}
+  {}{0pt}{}
+\titleformat{\subsection}
+  {\large\bfseries\sffamily\color{RADark}}
+  {}{0pt}{}
+\titleformat{\subsubsection}
+  {\normalsize\bfseries\sffamily\color{RADark}}
+  {}{0pt}{}
+\titlespacing*{\section}{0pt}{1.4em}{0.45em}
+\titlespacing*{\subsection}{0pt}{1.0em}{0.35em}
+
+	\captionsetup{
+	  font={small,sf},
+	  labelfont={bf},
+	  margin=0.04\linewidth,
+	  skip=0.45em
+	}
+	\newcommand{\RADisplayItemTitle}[3]{%
+	  \par\vspace{0.35em}\noindent{\small\sffamily\bfseries #1~#2 \textbar{} #3}\par
+	}
+	\newcommand{\RADisplayItemDek}[1]{%
+	  \vspace{0.12em}\noindent{\small\sffamily #1}\par\vspace{0.55em}
+	}
+	\pagestyle{fancy}
+	\fancyhf{}
+\fancyhead[L]{\small\bfseries Research Arena}
+\fancyhead[R]{\small Article}
+\fancyfoot[L]{\small Research Arena | Volume 1 | July 2026}
+\fancyfoot[R]{\small \thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}

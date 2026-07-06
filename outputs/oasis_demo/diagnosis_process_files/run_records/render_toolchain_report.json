@@ -1,0 +1,191 @@
+{
+  "checker": "research-arena-render-toolchain",
+  "commands": [
+    {
+      "error": null,
+      "found": true,
+      "name": "pandoc",
+      "path": "<required_tools>/pandoc-3.10-arm64/bin/pandoc",
+      "purpose": "Markdown/LaTeX conversion",
+      "version": "pandoc 3.10\nFeatures: +server +lua\nScripting engine: Lua 5.4"
+    },
+    {
+      "error": null,
+      "found": true,
+      "name": "xelatex",
+      "path": "/usr/local/texlive/2026basic/bin/universal-darwin/xelatex",
+      "purpose": "XeLaTeX PDF engine with fontspec support",
+      "version": "XeTeX 3.141592653-2.6-0.999998 (TeX Live 2026)\nkpathsea version 6.4.2\nCopyright 2026 SIL International, Jonathan Kew and Khaled Hosny."
+    },
+    {
+      "error": null,
+      "found": true,
+      "name": "latexmk",
+      "path": "/usr/local/texlive/2026basic/bin/universal-darwin/latexmk",
+      "purpose": "Reliable multi-pass LaTeX build driver",
+      "version": "Latexmk, John Collins, 9 March 2026. Version 4.88"
+    },
+    {
+      "error": null,
+      "found": true,
+      "name": "pdfinfo",
+      "path": "/opt/anaconda3/envs/ag/bin/pdfinfo",
+      "purpose": "Poppler PDF metadata inspection",
+      "version": "pdfinfo version 26.02.0\nCopyright 2005-2026 The Poppler Developers - http://poppler.freedesktop.org\nCopyright 1996-2011, 2022 Glyph & Cog, LLC"
+    },
+    {
+      "error": null,
+      "found": true,
+      "name": "pdftoppm",
+      "path": "/opt/anaconda3/envs/ag/bin/pdftoppm",
+      "purpose": "Poppler PDF-to-PNG rendering for visual QA",
+      "version": "pdftoppm version 26.02.0\nCopyright 2005-2026 The Poppler Developers - http://poppler.freedesktop.org\nCopyright 1996-2011, 2022 Glyph & Cog, LLC"
+    },
+    {
+      "error": null,
+      "found": true,
+      "name": "pdftotext",
+      "path": "/opt/anaconda3/envs/ag/bin/pdftotext",
+      "purpose": "Poppler PDF text extraction for QA",
+      "version": "pdftotext version 26.02.0\nCopyright 2005-2026 The Poppler Developers - http://poppler.freedesktop.org\nCopyright 1996-2011, 2022 Glyph & Cog, LLC"
+    },
+    {
+      "error": null,
+      "found": true,
+      "name": "qpdf",
+      "path": "/opt/homebrew/bin/qpdf",
+      "purpose": "PDF structural validation",
+      "version": "qpdf version 12.3.2\nRun qpdf --copyright to see copyright and license information."
+    },
+    {
+      "error": null,
+      "found": true,
+      "name": "fc-match",
+      "path": "/opt/anaconda3/envs/ag/bin/fc-match",
+      "purpose": "fontconfig font discovery",
+      "version": "fontconfig version 2.17.1"
+    }
+  ],
+  "installation_hints": [
+    "No missing tools detected."
+  ],
+  "latex_packages": [
+    {
+      "found": true,
+      "name": "amsmath.sty",
+      "path": "/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsmath/amsmath.sty"
+    },
+    {
+      "found": true,
+      "name": "amssymb.sty",
+      "path": "/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsfonts/amssymb.sty"
+    },
+    {
+      "found": true,
+      "name": "mathtools.sty",
+      "path": "/usr/local/texlive/2026basic/texmf-dist/tex/latex/mathtools/mathtools.sty"
+    },
+    {
+      "found": true,
+      "name": "booktabs.sty",
+      "path": "/usr/local/texlive/2026basic/texmf-dist/tex/latex/booktabs/booktabs.sty"
+    },
+    {
+      "found": true,
+      "name": "caption.sty",
+      "path": "/usr/local/texlive/2026basic/texmf-dist/tex/latex/caption/caption.sty"
+    },
+    {
+      "found": true,
+      "name": "fancyhdr.sty",
+      "path": "/usr/local/texlive/2026basic/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty"
+    },
+    {
+      "found": true,
+      "name": "float.sty",
+      "path": "/usr/local/texlive/2026basic/texmf-dist/tex/latex/float/float.sty"
+    },
+    {
+      "found": true,
+      "name": "fontspec.sty",
+      "path": "/usr/local/texlive/2026basic/texmf-dist/tex/latex/fontspec/fontspec.sty"
+    },
+    {
+      "found": true,
+      "name": "geometry.sty",
+      "path": "/usr/local/texlive/2026basic/texmf-dist/tex/latex/geometry/geometry.sty"
+    },
+    {
+      "found": true,
+      "name": "graphicx.sty",
+      "path": "/usr/local/texlive/2026basic/texmf-dist/tex/latex/graphics/graphicx.sty"
+    },
+    {
+      "found": true,
+      "name": "hyperref.sty",
+      "path": "/usr/local/texlive/2026basic/texmf-dist/tex/latex/hyperref/hyperref.sty"
+    },
+    {
+      "found": true,
+      "name": "lineno.sty",
+      "path": "/usr/local/texlive/2026basic/texmf-dist/tex/latex/lineno/lineno.sty"
+    },
+    {
+      "found": true,
+      "name": "microtype.sty",
+      "path": "/usr/local/texlive/2026basic/texmf-dist/tex/latex/microtype/microtype.sty"
+    },
+    {
+      "found": true,
+      "name": "sansmath.sty",
+      "path": "/usr/local/texlive/2026basic/texmf-dist/tex/latex/sansmath/sansmath.sty"
+    },
+    {
+      "found": true,
+      "name": "titlesec.sty",
+      "path": "/usr/local/texlive/2026basic/texmf-dist/tex/latex/titlesec/titlesec.sty"
+    },
+    {
+      "found": true,
+      "name": "xcolor.sty",
+      "path": "/usr/local/texlive/2026basic/texmf-dist/tex/latex/xcolor/xcolor.sty"
+    }
+  ],
+  "missing_commands": [],
+  "missing_latex_packages": [],
+  "notes": [
+    "This checker only verifies the rendering/QA toolchain. It does not judge manuscript quality.",
+    "Pandoc and XeLaTeX are required for publication-quality manuscript rendering unless the run contract explicitly allows a fallback renderer.",
+    "Poppler, qpdf, and fontconfig are required for final PDF visual/text/font QA."
+  ],
+  "path_prefixes_added": [
+    "<required_tools>/pandoc-3.10-arm64/bin",
+    "/usr/local/texlive/2026basic/bin/universal-darwin",
+    "/Library/TeX/texbin",
+    "/opt/anaconda3/envs/ag/bin",
+    "/opt/homebrew/bin"
+  ],
+  "platform": {
+    "machine": "arm64",
+    "python": "3.9.6",
+    "system": "Darwin"
+  },
+  "required_tools_folder": "<required_tools>",
+  "root": "<research_arena_root>",
+  "runtime": {
+    "conda_env": "ag",
+    "conda_env_bin": "/opt/anaconda3/envs/ag/bin",
+    "mode": "conda"
+  },
+  "staged_tools": {
+    "basictex_installed": true,
+    "basictex_package": "<required_tools>/downloads/macos-arm64/BasicTeX.pkg",
+    "conda_env": "ag",
+    "conda_env_bin": "/opt/anaconda3/envs/ag/bin",
+    "local_pandoc": "<required_tools>/pandoc-3.10-arm64/bin/pandoc",
+    "required_tools_folder": "<required_tools>",
+    "texbin_xelatex": "/Library/TeX/texbin/xelatex",
+    "texlive_xelatex": "/usr/local/texlive/2026basic/bin/universal-darwin/xelatex"
+  },
+  "status": "pass"
+}

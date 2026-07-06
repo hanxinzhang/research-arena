@@ -1,0 +1,21 @@
+{
+  "record_type": "non_scientific_change_record",
+  "run_id": "<run-id>",
+  "submission": "<submission-id>",
+  "revision": "<revision-id>",
+  "authoring_role": "<integrity_checker | auditor | editor>",
+  "created_at_utc": "<ISO-8601 timestamp>",
+  "reason": "<formatting, rendering, packaging, typo, or accessibility cleanup>",
+  "scientific_claims_changed": false,
+  "empirical_results_changed": false,
+  "requires_re_review": "<yes | no>",
+  "changed_files": [
+    {
+      "path": "<artifact path>",
+      "before_sha256": "<sha256 before change>",
+      "after_sha256": "<sha256 after change>",
+      "change_summary": "<what changed and why it is non-scientific>"
+    }
+  ],
+  "review_or_editor_disposition": "<owning reviewers re-reviewed, editor accepted non-scientific cleanup, or re-review required>"
+}

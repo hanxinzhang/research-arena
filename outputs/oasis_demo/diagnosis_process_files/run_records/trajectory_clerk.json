@@ -1,0 +1,147 @@
+{
+  "clerk_type": "revision_trajectory_summary",
+  "event_log_present": true,
+  "notes": [
+    "This tool reports deterministic trajectory facts only.",
+    "LLM-backed agents must judge whether the trajectory is scientifically adequate.",
+    "A lack of empirical file changes is a signal for review, not an automatic verdict.",
+    "A revision_marker_only analysis change means analysis.py changed only in a recognized revision-number marker after normalization.",
+    "prior_review_event_status checks event-log order only; it does not judge review quality.",
+    "revision_type and empirical_provenance_status are Researcher-declared fields; use them to distinguish empirical, interpretive, packaging, and mixed revisions."
+  ],
+  "rows": [
+    {
+      "analysis_change_kind": "not_applicable_initial",
+      "compute_change_ratio_from_previous": "not_applicable_initial",
+      "compute_delta_from_previous_cpu_core_hours": 0.0,
+      "compute_numeric_cpu_core_hours": 0.000211,
+      "compute_rows": 3,
+      "empirical_changed_from_previous": "not_applicable_initial",
+      "empirical_files_changed": "",
+      "empirical_provenance_status": "not_declared",
+      "packaging_changed_from_previous": "not_applicable_initial",
+      "packaging_files_changed": "",
+      "primary_metric_max_abs_delta": 0.0,
+      "primary_metrics_change_kind": "not_applicable_initial",
+      "prior_review_event_line": "",
+      "prior_review_event_status": "not_applicable_initial",
+      "revision": "revision_00",
+      "revision_plan_present": true,
+      "revision_start_event_line": "",
+      "revision_type": "not_applicable_initial",
+      "submission": "submission_001_researcher_1",
+      "transient_file_count": 0,
+      "unresolved_issue_count": 0
+    },
+    {
+      "analysis_change_kind": "unchanged",
+      "compute_change_ratio_from_previous": "1.000000",
+      "compute_delta_from_previous_cpu_core_hours": 0.0,
+      "compute_numeric_cpu_core_hours": 0.000211,
+      "compute_rows": 3,
+      "empirical_changed_from_previous": "true",
+      "empirical_files_changed": "empirical_provenance.json;results.json;stable_results.json",
+      "empirical_provenance_status": "rerun_current_revision",
+      "packaging_changed_from_previous": "true",
+      "packaging_files_changed": "artifact_manifest.json;issue_ledger.md;manuscript.pdf;presentation_checklist.md;revision_response.md;verification_matrix.csv",
+      "primary_metric_max_abs_delta": 0.0,
+      "primary_metrics_change_kind": "unchanged",
+      "prior_review_event_line": "",
+      "prior_review_event_status": "missing_prior_review_event",
+      "revision": "revision_01",
+      "revision_plan_present": true,
+      "revision_start_event_line": "6",
+      "revision_type": "empirical_revision",
+      "submission": "submission_001_researcher_1",
+      "transient_file_count": 0,
+      "unresolved_issue_count": 0
+    },
+    {
+      "analysis_change_kind": "not_applicable_initial",
+      "compute_change_ratio_from_previous": "not_applicable_initial",
+      "compute_delta_from_previous_cpu_core_hours": 0.0,
+      "compute_numeric_cpu_core_hours": 0.000376,
+      "compute_rows": 3,
+      "empirical_changed_from_previous": "not_applicable_initial",
+      "empirical_files_changed": "",
+      "empirical_provenance_status": "not_declared",
+      "packaging_changed_from_previous": "not_applicable_initial",
+      "packaging_files_changed": "",
+      "primary_metric_max_abs_delta": 0.0,
+      "primary_metrics_change_kind": "not_applicable_initial",
+      "prior_review_event_line": "",
+      "prior_review_event_status": "not_applicable_initial",
+      "revision": "revision_00",
+      "revision_plan_present": true,
+      "revision_start_event_line": "",
+      "revision_type": "not_applicable_initial",
+      "submission": "submission_002_researcher_2",
+      "transient_file_count": 0,
+      "unresolved_issue_count": 0
+    },
+    {
+      "analysis_change_kind": "unchanged",
+      "compute_change_ratio_from_previous": "1.000000",
+      "compute_delta_from_previous_cpu_core_hours": 0.0,
+      "compute_numeric_cpu_core_hours": 0.000376,
+      "compute_rows": 3,
+      "empirical_changed_from_previous": "true",
+      "empirical_files_changed": "compute_log.csv;empirical_provenance.json;results.json;stable_results.json",
+      "empirical_provenance_status": "rerun_current_revision",
+      "packaging_changed_from_previous": "true",
+      "packaging_files_changed": "artifact_manifest.json;issue_ledger.md;manuscript.pdf;presentation_checklist.md;revision_response.md;verification_matrix.csv",
+      "primary_metric_max_abs_delta": 0.0,
+      "primary_metrics_change_kind": "unchanged",
+      "prior_review_event_line": "",
+      "prior_review_event_status": "missing_prior_review_event",
+      "revision": "revision_01",
+      "revision_plan_present": true,
+      "revision_start_event_line": "8",
+      "revision_type": "empirical_revision",
+      "submission": "submission_002_researcher_2",
+      "transient_file_count": 0,
+      "unresolved_issue_count": 0
+    }
+  ],
+  "run_id": "oasis_demo",
+  "scientific_judgment": "not_evaluated",
+  "submission_count": 2,
+  "submissions": [
+    {
+      "event_order_warnings": [
+        "revision_01:missing_prior_review_event"
+      ],
+      "latest_compute_numeric_cpu_core_hours": 0.000211,
+      "latest_revision": "revision_01",
+      "latest_transient_file_count": 0,
+      "latest_unresolved_issue_count": 0,
+      "missing_revision_plans": [],
+      "nonincreasing_compute_with_open_issues": [],
+      "revision_count": 2,
+      "revision_marker_only_analysis_revisions": [],
+      "stagnant_empirical_revisions": [],
+      "submission": "submission_001_researcher_1",
+      "unchanged_primary_metric_revisions": [
+        "revision_01"
+      ]
+    },
+    {
+      "event_order_warnings": [
+        "revision_01:missing_prior_review_event"
+      ],
+      "latest_compute_numeric_cpu_core_hours": 0.000376,
+      "latest_revision": "revision_01",
+      "latest_transient_file_count": 0,
+      "latest_unresolved_issue_count": 0,
+      "missing_revision_plans": [],
+      "nonincreasing_compute_with_open_issues": [],
+      "revision_count": 2,
+      "revision_marker_only_analysis_revisions": [],
+      "stagnant_empirical_revisions": [],
+      "submission": "submission_002_researcher_2",
+      "unchanged_primary_metric_revisions": [
+        "revision_01"
+      ]
+    }
+  ]
+}

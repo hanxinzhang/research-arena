@@ -1,0 +1,233 @@
+{
+  "created_at_utc": "2026-07-05T20:40:57.232830+00:00",
+  "files": [
+    {
+      "bytes": 11286,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/analysis.py",
+      "sha256": "e889546e4c74a223391207dfe24fd22ad6cd095a8e246de7cf792bf6488868f9"
+    },
+    {
+      "bytes": 547,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/analysis_plan.md",
+      "sha256": "78b0c38aaf87acd44994285172e17ee84451d3283139952cae84b120c693a9ec"
+    },
+    {
+      "bytes": 13232,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/article/article.md",
+      "sha256": "1b3c25095266b3c98e7d42112daaf21d4e0100bb97ced3749ddc9cf04989bcc3"
+    },
+    {
+      "bytes": 87439,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/article/article.pdf",
+      "sha256": "be718614b32134565f59bbc770c2135244492457d23852beb80bf8cad982599c"
+    },
+    {
+      "bytes": 5469,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/article/article_build_report.json",
+      "sha256": "8403ffedf1755eb87a8764753ddd22dddc892a0bf3b49f84a917bebdfdf1a614"
+    },
+    {
+      "bytes": 2644,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/article/article_header.tex",
+      "sha256": "93efe715748749f570933a1b7f43593d1a0a463bf8ebdf65fde48e2d6b3548fc"
+    },
+    {
+      "bytes": 7460,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/article/assets/brand/research_arena_logo_evidence_gain.pdf",
+      "sha256": "ec27287e9bcfa73f63fe4c4f12f8dc17706cce165690a3d47e58d8375add3b7c"
+    },
+    {
+      "bytes": 1061,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/article/assets/brand/research_arena_logo_evidence_gain.tex",
+      "sha256": "eb3140f242b54c4b0bbf6c2cb8cd7b44c3be18b4e1ec7b3b0c675b84f8476134"
+    },
+    {
+      "bytes": 15745,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/article/assets/figures/figure_01a_discrimination.pdf",
+      "sha256": "5fcd3ccf58fc82636a1fa22c7f3c364146955b1afc4a5a8f53e62cc123ce7625"
+    },
+    {
+      "bytes": 12651,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/article/assets/figures/figure_01b_permutation-control.pdf",
+      "sha256": "6aa41b76688a1177da6838e77d3dee6293e8c41561d4521c9b551c00fc6f4557"
+    },
+    {
+      "bytes": 12134,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/article/assets/figures/figure_02_sparse-endpoint-coefficient-profile.pdf",
+      "sha256": "6414ba5dca33fe0a8a3330c681d250241281e5556d28b43017427b83b3c5f920"
+    },
+    {
+      "bytes": 420428,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/article/assets/fonts/inter/Inter-Bold.ttf",
+      "sha256": "288316099b1e0a47a4716d159098005eef7c0066921f34e3200393dbdb01947f"
+    },
+    {
+      "bytes": 425296,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/article/assets/fonts/inter/Inter-BoldItalic.ttf",
+      "sha256": "948405a16cdc62701da5f4005ed068ca5f4d27061d98f7974ccfc37831d9581d"
+    },
+    {
+      "bytes": 417388,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/article/assets/fonts/inter/Inter-Italic.ttf",
+      "sha256": "bbc051dd204b5019a1aa0bc0ae2aa8a05ab13e7a3f979fa357631dc7feb6833a"
+    },
+    {
+      "bytes": 411640,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/article/assets/fonts/inter/Inter-Regular.ttf",
+      "sha256": "40d692fce188e4471e2b3cba937be967878f631ad3ebbbdcd587687c7ebe0c82"
+    },
+    {
+      "bytes": 4380,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/article/assets/fonts/inter/LICENSE.txt",
+      "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+    },
+    {
+      "bytes": 445,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/compute_log.csv",
+      "sha256": "cb5ae6cf7000b718c8d0b4b632591090cce4f25e908b08f6a418e9a1c16b8fe9"
+    },
+    {
+      "bytes": 649,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/compute_reconciliation.md",
+      "sha256": "a6411f7264a488e7e2243dd79d860618a9a07dc1853ea580a27cb10eca400d3e"
+    },
+    {
+      "bytes": 10591,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/display_item_explanations.md",
+      "sha256": "1c575ffa9ac7bb97a90527bbe54b4b0d8d805785c1a26dafaebf702989d27f63"
+    },
+    {
+      "bytes": 301,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/eda_report.md",
+      "sha256": "d4f76288e42f0d3cd359cbb452a71783ba5c0b71356173fca1cf4b217c379149"
+    },
+    {
+      "bytes": 461,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/empirical_provenance.json",
+      "sha256": "8fcae0016c108d7f340f90562bfffd4d1a87e238d3274789aaf65ebd6685df73"
+    },
+    {
+      "bytes": 513,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/experiment_registry.csv",
+      "sha256": "18052b2b61f96b365494822079a1828b17d4edc3aadc0d883d82a5c8f05c1a49"
+    },
+    {
+      "bytes": 2299,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/figure_presentation_audit.json",
+      "sha256": "72c55d63ef92a7a7c1d73cc5075c4ad4f285990d505bfcf5d25fa4d9b2277d68"
+    },
+    {
+      "bytes": 15745,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/figures/figure_1_roc_curves.pdf",
+      "sha256": "5fcd3ccf58fc82636a1fa22c7f3c364146955b1afc4a5a8f53e62cc123ce7625"
+    },
+    {
+      "bytes": 12134,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/figures/figure_2_coefficient_profile.pdf",
+      "sha256": "6414ba5dca33fe0a8a3330c681d250241281e5556d28b43017427b83b3c5f920"
+    },
+    {
+      "bytes": 12651,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/figures/figure_3_negative_control.pdf",
+      "sha256": "6aa41b76688a1177da6838e77d3dee6293e8c41561d4521c9b551c00fc6f4557"
+    },
+    {
+      "bytes": 697,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/issue_ledger.md",
+      "sha256": "1e239c3a0c32574a0fd2b2324ae9e96bc0b1bb893d662c549af53f9e0407d776"
+    },
+    {
+      "bytes": 618,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/literature_notes.md",
+      "sha256": "dfc68a8e6a70526c3dabcac7b1bb882505ce78bcf6b32851790806462a83244d"
+    },
+    {
+      "bytes": 9026,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/manuscript.md",
+      "sha256": "878120b5ef73ed370a85190acbc95f99f2e8ef0222175e60a98430a988d0791e"
+    },
+    {
+      "bytes": 39081,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/manuscript.pdf",
+      "sha256": "b4a3c109810bc2d309971ed3e7321d85712ec57c2aa659d7a3399539b06e2b0e"
+    },
+    {
+      "bytes": 912,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/manuscript_render_report.json",
+      "sha256": "d02edbb2b028c173c5c7770abd0b7c0ac7f8005d47b839956604b2748db60e87"
+    },
+    {
+      "bytes": 1493,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/manuscript_style_manifest.md",
+      "sha256": "8eeac958d6341f9ab4349b33dec7672ab5cf1dd95ae679cf53c74c4c5a27d774"
+    },
+    {
+      "bytes": 306,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/model_or_method_cards.md",
+      "sha256": "6296530d4e4b6d9634b4b6fb4d264bfe0a759748990181aa560277df2ea30ec5"
+    },
+    {
+      "bytes": 2182,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/presentation_checklist.md",
+      "sha256": "6204becda222f09d04ec54f511f5d5578631923dd6219a173c7609fc90152671"
+    },
+    {
+      "bytes": 943,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/proposal.md",
+      "sha256": "7e96eaa333218928482ac7f75ca4c7b385eefbcfc11fe44a0a05ecd567e2e89f"
+    },
+    {
+      "bytes": 341,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/research_dossier.md",
+      "sha256": "87688a14dbf4f9c10c8ea315c2c174abc6d2b88c202e5e1ce1360ce1162ccdf8"
+    },
+    {
+      "bytes": 1762,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/results.json",
+      "sha256": "979a29b1c6bfebbf895e0105c79faf52e408837ad2eebf42cb1a93c923e7c696"
+    },
+    {
+      "bytes": 323,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/revision_plan.md",
+      "sha256": "af471660d46a4cbfb71beb8d36b67c0df93a6a96357d06b195c6f030d9e219ca"
+    },
+    {
+      "bytes": 634,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/revision_response.md",
+      "sha256": "192b44fbf471dfcf31f1362e916f0c23645e96d5220030c65e0a0a7e861ccfd3"
+    },
+    {
+      "bytes": 1762,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/stable_results.json",
+      "sha256": "979a29b1c6bfebbf895e0105c79faf52e408837ad2eebf42cb1a93c923e7c696"
+    },
+    {
+      "bytes": 277,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/tables/coefficient_table.csv",
+      "sha256": "738eed8241b82ff77f186bbf376a11723c540d9b552c663f5514bfa05e0f73de"
+    },
+    {
+      "bytes": 199,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/tables/model_metric_summary.csv",
+      "sha256": "e536dfd6955278f972c72912f5e35a9ab8ae9b9d4f2588458e9cd8854d2fefdd"
+    },
+    {
+      "bytes": 161,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/tables/permutation_control.csv",
+      "sha256": "c1925b03ad7022717ff8740ee896f08f8470edd7e7f1cb8cabbcc76f22dda1a9"
+    },
+    {
+      "bytes": 99,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/tables/target_sensitivity.csv",
+      "sha256": "9a99676a7d6e13cf59b3d995655dd2795c3026c73fa971afc85753d2f6a76591"
+    },
+    {
+      "bytes": 719,
+      "path": "submissions/oasis_demo/submission_002_researcher_2/revision_01/verification_matrix.csv",
+      "sha256": "5a26c18390f5700a72f46a40b9e175dcc79fc77c0351970ef543a698b56d9dbe"
+    }
+  ],
+  "revision": "revision_01",
+  "run_id": "oasis_demo",
+  "submission": "submission_002_researcher_2"
+}

@@ -1,0 +1,3 @@
+step,wall_seconds,effective_cores,cpu_core_hours,notes
+data_load_and_counts,0.210,1,0.000058,loaded OASIS CSV and counted labels
+pilot_baseline,0.920,1,0.000256,fit compact pilot baseline

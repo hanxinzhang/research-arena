@@ -1,0 +1,53 @@
+{
+  "revision": "revision_01",
+  "researcher": "researcher_1",
+  "question": "Can age and morphometry identify rows with Clinical Dementia Rating above 0?",
+  "n_rows": 235,
+  "positive_rows": 100,
+  "primary_metrics": {
+    "morphometry_demographics_auroc": 0.77837,
+    "morphometry_demographics_average_precision": 0.658736,
+    "morphometry_demographics_brier": 0.192875
+  },
+  "bootstrap_intervals": {
+    "auroc_ci_2_5": 0.711817,
+    "auroc_ci_97_5": 0.832556,
+    "average_precision_ci_2_5": 0.571298,
+    "average_precision_ci_97_5": 0.773349
+  },
+  "models": [
+    {
+      "model": "Age only",
+      "features": [
+        "Age"
+      ],
+      "auroc": 0.658074,
+      "average_precision": 0.497049,
+      "brier": 0.227556
+    },
+    {
+      "model": "Morphometry only",
+      "features": [
+        "eTIV",
+        "nWBV",
+        "ASF"
+      ],
+      "auroc": 0.779778,
+      "average_precision": 0.662674,
+      "brier": 0.192448
+    },
+    {
+      "model": "Morphometry plus demographics",
+      "features": [
+        "Age",
+        "eTIV",
+        "nWBV",
+        "ASF",
+        "M/F"
+      ],
+      "auroc": 0.77837,
+      "average_precision": 0.658736,
+      "brier": 0.192875
+    }
+  ]
+}

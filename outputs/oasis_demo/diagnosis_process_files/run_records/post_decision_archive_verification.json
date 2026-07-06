@@ -1,0 +1,22 @@
+{
+  "manifest": "runs/oasis_demo/post_decision_archive_manifest.json",
+  "manifest_stage": "post-decision",
+  "mismatch_count": 2,
+  "mismatches": [
+    {
+      "expected_sha256": "9bf408798b450cfa9ee011b13cbe3817270bdf47010cc616bd8585d7cd378b9e",
+      "observed_sha256": "ba7001dea099963717f9827b128b44689ed2172fa945af1ff95ca1f2a8b661e2",
+      "path": "runs/oasis_demo/run_state_audit.csv"
+    },
+    {
+      "expected_sha256": "f0d4915c7399fc039946f2ae6b4dd721b8feafcb8586a4cf97b6ed7fbb41dbaf",
+      "observed_sha256": "3457292e3bd28bc1edfde6d245c4ff4eb1adeccae30ee4236605f412317d4857",
+      "path": "runs/oasis_demo/run_state_audit.json"
+    }
+  ],
+  "missing": [],
+  "missing_count": 0,
+  "run_id": "oasis_demo",
+  "status": "flagged",
+  "verified_at_utc": "2026-07-05T20:44:47.281267+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "time": "<ISO-8601 timestamp or explicit unknown>",
+  "agent": "<agent id>",
+  "role": "<researcher | study_design_board | integrity_checker | referee | editor | auditor>",
+  "action": "<short verb phrase>",
+  "input_artifacts": [
+    "<path>"
+  ],
+  "output_artifacts": [
+    "<path>"
+  ],
+  "decision": "<decision if any>",
+  "reason": "<one or two sentence rationale>",
+  "issue_ids": [
+    "<issue id>"
+  ]
+}

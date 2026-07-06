@@ -1,0 +1,16 @@
+{
+  "clerk_type": "review_text_similarity",
+  "flagged_pair_count": 0,
+  "flags": [],
+  "notes": [
+    "This deterministic clerk checks textual similarity, not scientific usefulness.",
+    "A flag requires editorial review; it does not automatically prove the reviews are invalid.",
+    "A pass does not prove that reviews were useful or evidence-linked.",
+    "Acceptance should wait for LLM-backed reviewer-quality judgment or a documented override."
+  ],
+  "review_count": 8,
+  "run_id": "oasis_demo",
+  "scientific_judgment": "not_evaluated",
+  "status": "pass",
+  "threshold": 0.88
+}

@@ -1,0 +1,6 @@
+Quantity,Value
+Observed Sparse Endpoint ROC AUC,0.919
+Permutation Mean ROC AUC,0.485
+Permutation SD ROC AUC,0.067
+Permutation P Value,0.032
+Permutation Draws,30

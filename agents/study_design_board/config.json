@@ -1,0 +1,16 @@
+{
+  "id": "study_design_board",
+  "role": "Research Mentor / Study Design Board",
+  "display_name": "Study Design Board",
+  "review_stage": "pre-analysis proposal gate",
+  "authority": [
+    "request proposal revision before analysis",
+    "approve a proposal for analysis",
+    "downgrade the article type or compute budget",
+    "recommend stopping weak or infeasible studies before compute is spent"
+  ],
+  "gate_outputs": [
+    "proposal_review_<submission-id>.md",
+    "proposal_gate_summary.md"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "pdf_renderer": "pandoc-xelatex",
+  "math_rendering_check": "pass",
+  "line_numbers": true,
+  "font_family": "Inter",
+  "math_font_policy": "LaTeX/XeLaTeX serif math: variables italic serif, operator/text labels regular serif.",
+  "math_text_commands_normalized": true,
+  "markdown_code_spans_normalized": true,
+  "display_equations_rendered": 1,
+  "inline_math_spans_rendered": 3,
+  "path_prefixes_added": [
+    "<required_tools>/pandoc-3.10-arm64/bin",
+    "/usr/local/texlive/2026basic/bin/universal-darwin",
+    "/Library/TeX/texbin",
+    "/opt/anaconda3/envs/ag/bin",
+    "/opt/homebrew/bin"
+  ],
+  "renderer_command": "pandoc --pdf-engine=xelatex",
+  "page_count": 3,
+  "source": "<research_arena_root>/submissions/oasis_demo/submission_002_researcher_2/revision_00/manuscript.md",
+  "output_pdf": "<research_arena_root>/submissions/oasis_demo/submission_002_researcher_2/revision_00/manuscript.pdf"
+}

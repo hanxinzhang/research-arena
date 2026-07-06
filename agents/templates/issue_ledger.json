@@ -1,0 +1,15 @@
+{
+  "issues": [
+    {
+      "issue_id": "<issue_id>",
+      "owner": "<integrity_checker | referee_1 | referee_2 | referee_3 | referee_4 | editor_publisher>",
+      "severity": "<blocking | major | minor | advisory>",
+      "status": "<opened | response_submitted | verified_resolved | partially_resolved | unresolved | editorial_risk_accepted | superseded>",
+      "required_evidence": ["<path or evidence description>"],
+      "evidence_that_would_change_judgment": "<result, artifact, downgrade, or rejection condition>",
+      "author_response": "<short response or not_submitted>",
+      "owner_verification": "<short verification or not_checked>",
+      "remaining_action": "<none or concrete next action>"
+    }
+  ]
+}

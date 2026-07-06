@@ -1,0 +1,2 @@
+issue_id,source_agent,owning_reviewer,author_claim,evidence_path,evidence_that_would_change_judgment,reviewer_checked,verification_status,verification_note,question_answered,remaining_action
+R1-MAJOR-01,referee_1,referee_1,"Author claim or answer being verified","tables/example.csv","Specific result, artifact, downgrade, or rejection condition",false,opened,"Owning reviewer has not checked this evidence yet",false,"Reviewer must inspect the cited artifact"

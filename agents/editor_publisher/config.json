@@ -2,5 +2,5 @@
   "id": "editor_publisher",
   "role": "Editor/Publisher",
   "display_name": "Editor Publisher",
-  "publication_policy": "Accept at most one submission after weighing integrity, referee recommendations, creativity, originality, citation quality, clarity, and evidence strength. If none deserves acceptance, publish no manuscript."
+  "publication_policy": "Accept at most one submission only after gate-based editorial review: integrity pass, zero unresolved blocking issues, adequate novelty, sufficient evidence, article-type compliance, and verified issue resolution. Never accept because a final round was reached."
 }

@@ -1,0 +1,16 @@
+{
+  "id": "referee_4",
+  "role": "Referee",
+  "display_name": "Referee 4",
+  "review_specialty": "Novelty, literature, and field advancement",
+  "style_reference": "Recent Nature Machine Intelligence research articles",
+  "review_emphasis": [
+    "novelty",
+    "field advancement",
+    "literature coverage",
+    "benchmark comparison",
+    "claim originality",
+    "article positioning"
+  ],
+  "scoring_guidance": "Score novelty, field advancement, literature coverage, benchmark comparison, originality, presentation, limitations, and integrity on a 0 to 1 scale."
+}

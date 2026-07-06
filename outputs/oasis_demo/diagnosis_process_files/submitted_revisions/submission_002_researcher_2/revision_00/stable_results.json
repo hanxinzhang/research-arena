@@ -1,0 +1,77 @@
+{
+  "revision": "revision_00",
+  "researcher": "researcher_2",
+  "question": "Does adding MMSE to morphometry improve detection of CDR >= 1.0?",
+  "n_rows": 235,
+  "positive_rows": 30,
+  "primary_metrics": {
+    "cognitive_morphometry_auroc": 0.919187,
+    "cognitive_morphometry_average_precision": 0.591349,
+    "cognitive_morphometry_brier": 0.110509,
+    "permutation_mean_auroc": 0.485051
+  },
+  "negative_control": {
+    "observed_auroc": 0.919187,
+    "permutation_mean_auroc": 0.485051,
+    "permutation_sd_auroc": 0.067437,
+    "permutation_p_ge_observed": 0.032258,
+    "permutation_mean_average_precision": 0.136107,
+    "permutation_sd_average_precision": 0.026797,
+    "permutation_draws": 30.0
+  },
+  "target_sensitivity": {
+    "cdr_gt_0_auroc": 0.909704,
+    "cdr_gt_0_average_precision": 0.900953
+  },
+  "models": [
+    {
+      "model": "Age only",
+      "features": [
+        "Age"
+      ],
+      "auroc": 0.644309,
+      "average_precision": 0.198691,
+      "brier": 0.235047
+    },
+    {
+      "model": "Morphometry plus age",
+      "features": [
+        "Age",
+        "eTIV",
+        "nWBV",
+        "ASF",
+        "M/F"
+      ],
+      "auroc": 0.793659,
+      "average_precision": 0.33208,
+      "brier": 0.191041
+    },
+    {
+      "model": "Cognitive plus morphometry",
+      "features": [
+        "Age",
+        "MMSE",
+        "eTIV",
+        "nWBV",
+        "ASF",
+        "M/F"
+      ],
+      "auroc": 0.919187,
+      "average_precision": 0.591349,
+      "brier": 0.110509
+    },
+    {
+      "model": "No-MMSE sensitivity check",
+      "features": [
+        "Age",
+        "eTIV",
+        "nWBV",
+        "ASF",
+        "M/F"
+      ],
+      "auroc": 0.797236,
+      "average_precision": 0.343989,
+      "brier": 0.186546
+    }
+  ]
+}

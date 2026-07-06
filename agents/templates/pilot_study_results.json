@@ -1,0 +1,19 @@
+{
+  "run_id": "<run-id>",
+  "researcher_id": "<researcher-id>",
+  "pilot_scope": {
+    "sample_size": null,
+    "selection_rule": "",
+    "data_files_or_sources": []
+  },
+  "data_observations": [],
+  "rough_baseline_results": [],
+  "resource_observations": [],
+  "warnings_or_failures": [],
+  "leakage_or_confounding_signals": [],
+  "ideas_supported": [],
+  "ideas_weakened": [],
+  "cannot_conclude": [
+    "Pilot results are planning evidence only and are not final article evidence."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "blocking_or_major_count": 0,
+  "clerk_type": "archive_hygiene",
+  "finding_count": 0,
+  "findings": [],
+  "notes": [
+    "This clerk checks the run archive for transient files only.",
+    "A pass does not prove scientific adequacy; it only means the archive is free of common local-machine/cache artifacts."
+  ],
+  "run_id": "oasis_demo",
+  "scientific_judgment": "not_evaluated",
+  "status": "pass"
+}

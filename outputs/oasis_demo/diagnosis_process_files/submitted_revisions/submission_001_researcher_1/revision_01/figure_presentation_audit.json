@@ -1,0 +1,89 @@
+{
+  "article_figure_scale_audits": [
+    {
+      "artifact": "figures/figure_1_roc_curves.pdf",
+      "effective_text_size_pt": 8.0,
+      "findings": [],
+      "scale_factor": 0.941,
+      "source_text_size_pt": 8.5,
+      "status": "pass"
+    },
+    {
+      "artifact": "figures/figure_3_calibration.pdf",
+      "effective_text_size_pt": 8.0,
+      "findings": [],
+      "scale_factor": 0.941,
+      "source_text_size_pt": 8.5,
+      "status": "pass"
+    },
+    {
+      "artifact": "figures/figure_2_coefficient_profile.pdf",
+      "effective_text_size_pt": 8.0,
+      "findings": [],
+      "scale_factor": 0.941,
+      "source_text_size_pt": 8.5,
+      "status": "pass"
+    }
+  ],
+  "article_report": "submissions/oasis_demo/submission_001_researcher_1/revision_01/article/article_build_report.json",
+  "created_at_utc": "2026-07-05T20:40:48.500140+00:00",
+  "effective_article_text_size_range_pt": [
+    7.4,
+    8.8
+  ],
+  "figure_audits": [
+    {
+      "artifact": "figures/figure_1_roc_curves.pdf",
+      "findings": [],
+      "font_fragments_found": [
+        "Inter"
+      ],
+      "font_status": "pass",
+      "status": "pass",
+      "text_size_max_pt": 8.5,
+      "text_size_min_pt": 8.5,
+      "text_size_range_pt": 0.0,
+      "text_size_values_pt": [
+        8.5
+      ]
+    },
+    {
+      "artifact": "figures/figure_2_coefficient_profile.pdf",
+      "findings": [],
+      "font_fragments_found": [
+        "Inter"
+      ],
+      "font_status": "pass",
+      "status": "pass",
+      "text_size_max_pt": 8.5,
+      "text_size_min_pt": 8.5,
+      "text_size_range_pt": 0.0,
+      "text_size_values_pt": [
+        8.5
+      ]
+    },
+    {
+      "artifact": "figures/figure_3_calibration.pdf",
+      "findings": [],
+      "font_fragments_found": [
+        "Inter"
+      ],
+      "font_status": "pass",
+      "status": "pass",
+      "text_size_max_pt": 8.5,
+      "text_size_min_pt": 8.5,
+      "text_size_range_pt": 0.0,
+      "text_size_values_pt": [
+        8.5
+      ]
+    }
+  ],
+  "figure_count": 3,
+  "flagged_count": 0,
+  "manual_fontsize_audits": [],
+  "max_source_text_size_range_pt": 1.0,
+  "source_revision": "submissions/oasis_demo/submission_001_researcher_1/revision_01",
+  "source_text_tolerance_pt": 0.75,
+  "status": "pass",
+  "target_source_text_size_pt": 8.5
+}

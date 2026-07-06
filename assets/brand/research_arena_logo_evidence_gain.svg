@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="260" viewBox="0 0 560 260" role="img" aria-labelledby="title desc">
+  <title id="title">Research Arena Evidence Gain logo</title>
+  <desc id="desc">A minimalist Research Arena logo with a sans serif delta E mark and Evidence Gain subline.</desc>
+  <defs>
+    <style>
+      .delta { fill: #1f2937; font-family: Inter, "Source Sans 3", "Noto Sans", "Liberation Sans", sans-serif; font-size: 82px; font-weight: 760; letter-spacing: -4px; }
+      .research { fill: #1f2937; font-family: Inter, "Source Sans 3", "Noto Sans", "Liberation Sans", sans-serif; font-size: 66px; font-weight: 820; }
+      .arena { fill: #2c7fb8; font-family: Inter, "Source Sans 3", "Noto Sans", "Liberation Sans", sans-serif; font-size: 66px; font-weight: 820; }
+      .subline { fill: #4b5563; font-family: Inter, "Source Sans 3", "Noto Sans", "Liberation Sans", sans-serif; font-size: 21px; font-weight: 820; letter-spacing: 3.2px; }
+      .divider { stroke: #d7e3ec; stroke-width: 3; stroke-linecap: round; }
+    </style>
+  </defs>
+
+  <text class="delta" x="28" y="138">&#916;E</text>
+  <line class="divider" x1="162" y1="34" x2="162" y2="214"/>
+  <text class="research" x="198" y="82">Research</text>
+  <text class="arena" x="198" y="157">Arena</text>
+  <text class="subline" x="201" y="214">EVIDENCE GAIN</text>
+</svg>

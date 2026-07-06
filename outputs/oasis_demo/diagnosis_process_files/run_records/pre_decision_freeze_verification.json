@@ -1,0 +1,11 @@
+{
+  "manifest": "runs/oasis_demo/pre_decision_freeze_manifest.json",
+  "manifest_stage": "pre-decision",
+  "mismatch_count": 0,
+  "mismatches": [],
+  "missing": [],
+  "missing_count": 0,
+  "run_id": "oasis_demo",
+  "status": "pass",
+  "verified_at_utc": "2026-07-05T20:44:47.274772+00:00"
+}

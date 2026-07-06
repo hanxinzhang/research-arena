@@ -1,0 +1,2 @@
+component,command_or_method,sample_size,wall_seconds,effective_cpu_cores,estimated_cpu_core_hours,gpu_name,gpu_hours,backend,notes
+data_load,<command>,<n>,0,1,0,,0,<cpu|gpu|mps>,"replace this template row"

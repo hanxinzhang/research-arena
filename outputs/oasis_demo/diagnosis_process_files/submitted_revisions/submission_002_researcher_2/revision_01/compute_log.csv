@@ -1,0 +1,4 @@
+step,command_or_script,wall_seconds,effective_cores,cpu_core_hours,notes
+sparse_endpoint_model_comparison,conda run -n ag python analysis.py,0.487,1,0.000135,5-fold models for CDR >= 1.0
+permutation_negative_control,conda run -n ag python analysis.py,0.622,1,0.000173,30 label-permutation control fits
+target_sensitivity_and_coefficients,conda run -n ag python analysis.py,0.243,1,0.000068,CDR > 0 sensitivity endpoint and coefficient table

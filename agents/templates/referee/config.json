@@ -2,14 +2,15 @@
   "id": "referee_N",
   "role": "Referee",
   "display_name": "Referee N",
-  "style_reference": "Recent relevant scientific articles and clean journal figures/tables",
+  "review_specialty": "Replace with a distinct specialty",
+  "style_reference": "Recent relevant scientific articles and journal review standards",
   "review_emphasis": [
-    "creativity",
+    "evidence-linked review",
+    "issue-ledger tracking",
     "originality",
-    "evidence strength",
+    "artifact quality",
     "citation quality",
-    "manuscript clarity",
     "limitations"
   ],
-  "scoring_guidance": "Score creativity, originality, presentation, clarity, evidence, integrity, citation quality, and limitations on a 0 to 1 scale."
+  "scoring_guidance": "Score the dimensions relevant to this referee specialty on a 0 to 1 scale. Recommendations must be evidence-based, issue-ledger-linked, and never deterministic by round number."
 }

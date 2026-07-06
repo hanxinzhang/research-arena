@@ -21,6 +21,32 @@ agent-generated outputs and generated code as untrusted until reviewed.
 - Generated analysis scripts should be inspected before execution.
 - Generated analysis scripts should avoid network calls, shell calls, private paths,
   credentials, hidden external files, and destructive file operations.
+- Toolchain, manuscript-render, article-build, and final-output reports should
+  sanitize repository, home-directory, staged-tool, and temporary paths before they
+  are copied into shareable outputs.
+
+## Before Uploading To GitHub
+
+Before publishing or re-uploading the repository:
+
+1. Upload the framework folder, not local test-run folders, unless the test run has
+   been intentionally cleaned and reviewed.
+2. Keep local datasets, generated `runs/`, `submissions/`, `work_packets/`,
+   `human_readable_outputs/`, `outputs/`, and agent workspaces out of the public
+   repository unless redistribution is explicitly allowed.
+3. Run a final local scan for credentials and private paths:
+
+   ```bash
+   rg -n "(api[_-]?key|secret|password|bearer|authorization|credential|private[_-]?key|ghp_|sk-)" .
+   rg -n "(/Users/|/private/var/folders|/private/tmp|/tmp/)" .
+   find . -name ".DS_Store" -o -path "*/__pycache__/*" -o -name "*.pyc"
+   ```
+
+4. Treat any generated analysis code as untrusted until it has been inspected for
+   network calls, shell calls, private paths, hidden dependencies, and destructive
+   operations.
+5. Confirm the source dataset license, citation terms, consent terms, and
+   redistribution rules before publishing any data-derived artifact.
 
 ## Generated Code Risk
 

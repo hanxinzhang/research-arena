@@ -1,0 +1,26 @@
+
+\documentclass{article}
+\usepackage[papersize={560bp,260bp},margin=0bp]{geometry}
+\usepackage{fontspec}
+\usepackage{xcolor}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\unitlength}{1bp}
+\setmainfont{Inter}[
+  Path=assets/fonts/inter/,
+  UprightFont=Inter-Bold.ttf,
+  BoldFont=Inter-Bold.ttf
+]
+\definecolor{RAAccent}{HTML}{2C7FB8}
+\definecolor{RADark}{HTML}{1F2937}
+\definecolor{RAMuted}{HTML}{4B5563}
+\definecolor{RALogoDivider}{HTML}{D7E3EC}
+\begin{document}
+\noindent\begin{picture}(560,260)
+\put(28,122){{\fontsize{82bp}{82bp}\selectfont\textcolor{RADark}{\char"0394\kern-4bp E}}}
+\put(162,46){\textcolor{RALogoDivider}{\rule{3bp}{180bp}}}
+\put(198,178){{\fontsize{66bp}{66bp}\selectfont\textcolor{RADark}{Research}}}
+\put(198,103){{\fontsize{66bp}{66bp}\selectfont\textcolor{RAAccent}{Arena}}}
+\put(201,46){{\fontsize{21bp}{21bp}\selectfont\textcolor{RAMuted}{E\kern3.2bp V\kern3.2bp I\kern3.2bp D\kern3.2bp E\kern3.2bp N\kern3.2bp C\kern3.2bp E\kern3.2bp \space\kern3.2bp G\kern3.2bp A\kern3.2bp I\kern3.2bp N}}}
+\end{picture}
+\end{document}

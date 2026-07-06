@@ -1,0 +1,4 @@
+experiment_id,question,model,status,primary_metric
+R1-01,CDR > 0 internal discrimination,Age only,complete,ROC AUC 0.658
+R1-02,CDR > 0 internal discrimination,Morphometry only,complete,ROC AUC 0.780
+R1-03,CDR > 0 internal discrimination,Morphometry plus demographics,complete,ROC AUC 0.778

@@ -1,0 +1,131 @@
+{
+  "article_build_report": "submissions/oasis_demo/submission_002_researcher_2/revision_01/article/article_build_report.json",
+  "article_layout_style": "plos_like_single_column",
+  "article_markdown": "submissions/oasis_demo/submission_002_researcher_2/revision_01/article/article.md",
+  "article_pdf": "submissions/oasis_demo/submission_002_researcher_2/revision_01/article/article.pdf",
+  "author_name": "Researcher 2",
+  "brand_logo": "research_arena_logo_evidence_gain",
+  "created_at_utc": "2026-07-05T20:40:38.996225+00:00",
+  "figure_presentation_flag_count": 0,
+  "included_figures": [
+    {
+      "article_explanation": "The paired panels summarize internal discrimination and a label-permutation control for the sparse Clinical Dementia Rating endpoint. Together they show the observed model contrast and the null reference used to judge whether the signal exceeds randomized labels.",
+      "article_explanation_status": "provided",
+      "article_group": "sparse-endpoint-diagnostics",
+      "kind": "composite_figure",
+      "label": "fig:sparse-endpoint-diagnostics",
+      "panel_column_status": "preserved_requested_columns",
+      "panel_columns": 2,
+      "panel_count": 2,
+      "panels": [
+        {
+          "article_scale_factor": "0.941",
+          "artifact": "figures/figure_1_roc_curves.pdf",
+          "copied_to": "assets/figures/figure_01a_discrimination.pdf",
+          "display_height_in": "2.35",
+          "display_width_in": "3.10",
+          "effective_article_text_size_pt": "8.0",
+          "figure_text_size_status": "pass",
+          "native_height_in": "2.49",
+          "native_width_in": "3.29",
+          "panel_label": "a",
+          "panel_title": "Discrimination",
+          "source_text_size_pt": "8.5",
+          "target_article_text_size_pt": "8.0"
+        },
+        {
+          "article_scale_factor": "0.941",
+          "artifact": "figures/figure_3_negative_control.pdf",
+          "copied_to": "assets/figures/figure_01b_permutation-control.pdf",
+          "display_height_in": "2.35",
+          "display_width_in": "3.10",
+          "effective_article_text_size_pt": "8.0",
+          "figure_text_size_status": "pass",
+          "native_height_in": "2.49",
+          "native_width_in": "3.29",
+          "panel_label": "b",
+          "panel_title": "Permutation control",
+          "source_text_size_pt": "8.5",
+          "target_article_text_size_pt": "8.0"
+        }
+      ],
+      "requested_panel_columns": 2,
+      "title": "Sparse endpoint diagnostics"
+    },
+    {
+      "article_explanation": "The coefficient profile ranks the largest standardized log-odds coefficients in the sparse-endpoint model. It shows that cognitive and morphometric features both contribute to the fitted model.",
+      "article_explanation_status": "provided",
+      "article_group": "standalone",
+      "article_scale_factor": "0.941",
+      "artifact": "figures/figure_2_coefficient_profile.pdf",
+      "copied_to": "assets/figures/figure_02_sparse-endpoint-coefficient-profile.pdf",
+      "display_height_in": "2.35",
+      "display_width_in": "3.54",
+      "effective_article_text_size_pt": "8.0",
+      "figure_text_size_status": "pass",
+      "kind": "figure",
+      "label": "fig:sparse-endpoint-coefficient-profile",
+      "native_height_in": "2.50",
+      "native_width_in": "3.76",
+      "source_text_size_pt": "8.5",
+      "target_article_text_size_pt": "8.0",
+      "title": "Sparse-endpoint coefficient profile"
+    }
+  ],
+  "included_tables": [
+    {
+      "article_explanation": "Lists fitted log-odds coefficients with human-readable predictor names.",
+      "article_explanation_status": "provided",
+      "artifact": "tables/coefficient_table.csv",
+      "columns": 2,
+      "label": "tab:coefficient-table",
+      "rows": 6,
+      "title": "Coefficient table"
+    },
+    {
+      "article_explanation": "Compares ROC AUC, average precision, and Brier score across sparse-endpoint models.",
+      "article_explanation_status": "provided",
+      "artifact": "tables/model_metric_summary.csv",
+      "columns": 4,
+      "label": "tab:model-metric-summary",
+      "rows": 4,
+      "title": "Model metric summary"
+    },
+    {
+      "article_explanation": "Reports the observed sparse-endpoint ROC AUC and the randomized-label reference distribution.",
+      "article_explanation_status": "provided",
+      "artifact": "tables/permutation_control.csv",
+      "columns": 2,
+      "label": "tab:permutation-control",
+      "rows": 5,
+      "title": "Permutation control"
+    },
+    {
+      "article_explanation": "Contrasts the sparse endpoint with the broader nonzero CDR endpoint.",
+      "article_explanation_status": "provided",
+      "artifact": "tables/target_sensitivity.csv",
+      "columns": 4,
+      "label": "tab:target-sensitivity",
+      "rows": 2,
+      "title": "Target sensitivity"
+    }
+  ],
+  "journal_date": "July 2026",
+  "journal_volume": "Volume 1",
+  "missing_article_explanation_count": 0,
+  "omitted_items": [],
+  "page_count": 4,
+  "path_prefixes_added": [
+    "<required_tools>/pandoc-3.10-arm64/bin",
+    "/usr/local/texlive/2026basic/bin/universal-darwin",
+    "/Library/TeX/texbin",
+    "/opt/anaconda3/envs/ag/bin",
+    "/opt/homebrew/bin"
+  ],
+  "publication_date": "July 5, 2026",
+  "publication_type": "Article",
+  "renderer": "pandoc-xelatex",
+  "source_revision": "submissions/oasis_demo/submission_002_researcher_2/revision_01",
+  "status": "pass",
+  "supplemental_items": []
+}

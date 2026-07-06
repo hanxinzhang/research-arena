@@ -1,0 +1,16 @@
+{
+  "blocking_or_major_count": 0,
+  "clerk_type": "structural_depth_presentation_independence",
+  "finding_count": 0,
+  "findings": [],
+  "notes": [
+    "This deterministic clerk checks required artifacts, presentation structure, and independence signals, not scientific truth.",
+    "A pass here is not an acceptance signal and does not mean the research is deep enough.",
+    "Editors should combine this output with LLM-backed scientific-depth and article-fit judgment.",
+    "Structured compute-budget settings are checked when present; missing structured settings are flagged so Editors can avoid accepting under-specified budgets.",
+    "Manuscript style checks look for declared line numbers, numbered and rendered display equations, rendered inline math spans, style manifests, accepted sans-serif manuscript/figure text signals, and a declared math rendering policy; visual PDF review is still required."
+  ],
+  "run_id": "oasis_demo",
+  "scientific_judgment": "not_evaluated",
+  "status": "pass"
+}

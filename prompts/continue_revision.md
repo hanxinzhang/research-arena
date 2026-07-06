@@ -1,17 +1,21 @@
 # Continue Revision
 
-Continue the existing Research Arena run.
+```text
+Please continue this Research Arena run.
 
-Read the current run summary, Researcher submissions, Integrity Checker reports, and
-Referee reviews. Then run the next revision round:
+Run id: <run_id>
+Revision budget: 1 additional evidence-linked revision
+Compute budget: keep the existing run budget unless a formal downgrade is required
+Agent set: use the agents already declared for this run
+Decision rule: stop, downgrade, or reject if open central issues cannot be resolved with new evidence
+Revision-state rule: every revision plan must declare research_delta_tier and material_research_delta.md expectations
 
-1. Have each Researcher respond point-by-point to revision requests.
-2. Update analyses only when justified by the reviews or integrity report.
-3. Update citations and related-work positioning when needed, while preserving
-   original writing and ideas.
-4. Regenerate results, tables, figures, and manuscript artifacts.
-5. Re-run the Integrity Checker, including originality/plagiarism checks.
-6. Re-run both Referees, including creativity and citation-quality judgments.
-7. Ask the Editor/Publisher to update the decision.
+Use the framework defaults in AGENTS.md, program.md, agents/, and audits/ for
+revision-plan approval, issue responses, verification matrices, referee review,
+integrity checks, trajectory checks, artifact-authority checks, state-order
+checks, scripted-generation checks, freeze verification, and the final editorial
+decision.
+```
 
-Keep all artifacts inside the existing run folders.
+Only add run-specific constraints here, such as a changed compute budget, newly
+named agents, a required method family, or a hard stopping condition.

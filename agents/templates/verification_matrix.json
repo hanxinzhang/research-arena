@@ -1,0 +1,17 @@
+{
+  "rows": [
+    {
+      "issue_id": "R1-MAJOR-01",
+      "source_agent": "referee_1",
+      "owning_reviewer": "referee_1",
+      "author_claim": "Author claim or answer being verified",
+      "evidence_path": "tables/example.csv",
+      "evidence_that_would_change_judgment": "Specific result, artifact, downgrade, or rejection condition",
+      "reviewer_checked": false,
+      "verification_status": "opened",
+      "verification_note": "Owning reviewer has not checked this evidence yet",
+      "question_answered": false,
+      "remaining_action": "Reviewer must inspect the cited artifact"
+    }
+  ]
+}

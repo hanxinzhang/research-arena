@@ -1,0 +1,7 @@
+{
+  "endpoint": "CDR >= 1.0",
+  "n_observed_cdr": 235,
+  "n_rows_total": 436,
+  "pilot_finding": "the sparse endpoint is feasible but class-imbalanced and needs a negative control",
+  "positive_rows": 30
+}

@@ -1,0 +1,10 @@
+{
+  "analysis_script_status": "rerun_current_revision",
+  "compute_log_status": "rerun_current_revision",
+  "current_revision": "revision_01",
+  "empirical_status": "rerun_current_revision",
+  "reason": "The latest revision reran the approved compact-demo analysis and wrote fresh results, figures, tables, and compute logs.",
+  "results_status": "rerun_current_revision",
+  "source_revision": "not_applicable",
+  "stable_results_path": "stable_results.json"
+}

@@ -1,0 +1,12 @@
+{
+  "judgment_type": "<scientific_depth | revision_trajectory | novelty_article_fit | reviewer_quality | manuscript_article_voice | display_item_narrative | display_item_grouping | display_program_independence>",
+  "status": "<rubric-specific status>",
+  "recommended_next_state": "<continue | revise_plan | downgrade_article_type | reject | accept_possible>",
+  "central_strengths": [],
+  "central_blockers": [],
+  "required_next_evidence": [],
+  "research_delta_tier_concerns": [],
+  "material_research_delta_paths": [],
+  "confidence": 0.0,
+  "evidence_paths": []
+}

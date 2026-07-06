@@ -1,0 +1,4 @@
+step,command_or_script,wall_seconds,effective_cores,cpu_core_hours,notes
+model_comparison,conda run -n ag python analysis.py,0.343,1,0.000095,5-fold models
+bootstrap_and_calibration,conda run -n ag python analysis.py,0.267,1,0.000074,bootstrap intervals and calibration bins
+figures_and_tables,conda run -n ag python analysis.py,0.152,1,0.000042,PDF figures and CSV tables

@@ -1,0 +1,6 @@
+experiment_id,question,model,status,primary_metric
+R2-01,Sparse CDR >= 1.0 internal discrimination,Age only,complete,ROC AUC 0.644
+R2-02,Sparse CDR >= 1.0 internal discrimination,Morphometry plus age,complete,ROC AUC 0.794
+R2-03,Sparse CDR >= 1.0 internal discrimination,Cognitive plus morphometry,complete,ROC AUC 0.919
+R2-04,Sparse CDR >= 1.0 internal discrimination,No-MMSE sensitivity check,complete,ROC AUC 0.797
+R2-05,Label-permutation negative control,Permutation control,complete,Mean ROC AUC 0.485

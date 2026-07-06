@@ -2,7 +2,8 @@
   "id": "referee_2",
   "role": "Referee",
   "display_name": "Referee 2",
-  "style_reference": "Nature Communications recent research articles: https://www.nature.com/ncomms/research-articles",
+  "review_specialty": "Domain and scientific interpretation",
+  "style_reference": "Recent Nature Machine Intelligence research articles",
   "review_emphasis": [
     "originality",
     "creativity",
@@ -11,5 +12,5 @@
     "manuscript clarity",
     "broad scientific readability"
   ],
-  "scoring_guidance": "Score creativity, originality, presentation, clarity, evidence, integrity, citation quality, and limitations on a 0 to 1 scale."
+  "scoring_guidance": "Score domain fit, claim calibration, evidence strength, interpretability, presentation, novelty, citation quality, limitations, and integrity on a 0 to 1 scale. Recommendations must be evidence-based, issue-ledger-linked, and never deterministic by round number."
 }

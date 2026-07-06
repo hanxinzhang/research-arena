@@ -1,0 +1,4 @@
+Model,ROC AUC,Average precision,Brier score
+Age only,0.658,0.497,0.228
+Morphometry only,0.780,0.663,0.192
+Morphometry plus demographics,0.778,0.659,0.193

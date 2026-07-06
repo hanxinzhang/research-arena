@@ -1,0 +1,3 @@
+issue_id,source_agent,owning_reviewer,author_claim,evidence_path,reviewer_checked,verification_status,verification_note,question_answered,remaining_action
+R2-MAJOR-01,referee_2,referee_2,Sparse-endpoint discrimination exceeds a randomized-label reference.,tables/permutation_control.csv; figures/figure_3_negative_control.pdf,true,verified_resolved,Permutation-control evidence was checked against the stable results file.,true,none
+R2-MINOR-02,integrity_checker,integrity_checker,Display labels use human-readable text and normalized figure scale.,display_item_explanations.md; figure_presentation_audit.json,true,verified_resolved,Human-readable figure labels and article-scale typography were verified.,true,none

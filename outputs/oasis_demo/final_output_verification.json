@@ -1,0 +1,10 @@
+{
+  "manifest": "outputs/oasis_demo/final_output_manifest.json",
+  "mismatch_count": 0,
+  "mismatches": [],
+  "missing": [],
+  "missing_count": 0,
+  "run_id": "oasis_demo",
+  "status": "pass",
+  "verified_at_utc": "2026-07-05T20:46:46.898459+00:00"
+}
