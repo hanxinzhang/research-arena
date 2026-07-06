@@ -1,7 +1,11 @@
-# Research Arena
+# Research Arena: fully automatic research framework
 
-Research Arena is an LLM-native framework for running agent-based research as a
-small scholarly community.
+Research Arena is an LLM-native framework for fully automatic, end-to-end
+agent-based research runs.
+
+A user provides the dataset, run ambition, constraints, and compute budget. The
+framework then prompts file-aware LLM agents to plan studies, run analysis code,
+review evidence, revise outputs, freeze the record, and prepare a final handoff.
 
 Instead of asking one agent to "do research," Research Arena gives the work a
 community structure: Researchers propose and run studies, a Study Design Board
@@ -15,6 +19,8 @@ PDF version: [`assets/research_arena_workflow.pdf`](assets/research_arena_workfl
 ## What it provides
 
 - A repeatable protocol for agent-based research runs.
+- A single-start-prompt workflow for mostly hands-off research automation after
+  the dataset, ambition, and budget are declared.
 - Independent Researcher roles that can pursue different questions on the same
   dataset.
 - A pre-analysis proposal gate so weak designs can be revised, downgraded, or
@@ -48,6 +54,11 @@ Codex, Claude, or another coding/research agent and asking it to follow the file
 
 The LLM agent is the runtime. Python is used only when a Researcher or clerk needs
 to inspect data, run analysis code, render artifacts, or verify outputs.
+
+Research Arena can be launched from one user prompt, but it is not best described
+as plain zero-shot prompting. The initial prompt starts the run; the protocol
+files, role instructions, review loops, clerk scripts, and freeze steps scaffold
+the work after that.
 
 ## Quickstart
 
