@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1224" height="792" viewBox="0 0 1224 792" role="img" aria-labelledby="title desc">
-  <title id="title">What Research Arena Provides</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="584" viewBox="0 0 1224 650" role="img" aria-labelledby="title desc">
+  <title id="title">What Research Arena provides</title>
   <desc id="desc">A simple workflow schematic showing that Research Arena helps users set rules, test ideas early, run studies, review and improve evidence, ship a decision, and apply automatic checks, expert-style review, and verified handoff.</desc>
   <defs>
     <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
@@ -24,7 +24,7 @@
       .section { font: 700 11px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #58656E; text-anchor: middle; }
       .step { font: 700 10px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #ffffff; text-anchor: middle; }
       .box-title { font: 700 16px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #19242B; }
-      .box-text { font: 400 14px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #58656E; }
+      .box-text { font: 400 15px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #58656E; }
       .loop-label { font: 400 11px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #58656E; text-anchor: middle; }
       .bar-text { font: 700 12px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #ffffff; text-anchor: middle; }
       .logo-dark { font: 800 30px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #1F2937; }
@@ -33,9 +33,9 @@
     </style>
   </defs>
 
-  <rect class="bg" width="1224" height="792"/>
+  <rect class="bg" width="1224" height="650"/>
 
-  <text class="title" x="56" y="58">What Research Arena Provides</text>
+  <text class="title" x="56" y="58">What Research Arena provides</text>
   <text class="subtitle" x="56" y="86">A structured way to run agent-based research: set the rules, test ideas, build evidence, review it, and deliver a verified output.</text>
 
   <text class="logo-dark" x="939" y="90">ΔE</text>
@@ -44,106 +44,105 @@
   <text class="logo-blue" x="1029" y="94">Arena</text>
   <text class="logo-sub" x="1030" y="116">EVIDENCE GAIN</text>
 
-  <text class="section" x="612" y="130">RESEARCH WORKFLOW</text>
-  <line class="line" x1="56" y1="142" x2="1168" y2="142"/>
+  <text class="section" x="612" y="122">RESEARCH WORKFLOW</text>
+  <line class="line" x1="56" y1="135" x2="1168" y2="135"/>
 
-  <rect class="box blue" x="50" y="224" width="190" height="138" rx="8"/>
-  <circle class="slate" cx="70" cy="249" r="14"/>
-  <text class="step" x="70" y="253">01</text>
-  <text class="box-title" x="92" y="254">Set the rules</text>
-  <text class="box-text" x="66" y="286">
-    <tspan x="66" dy="0">Define the dataset, study</tspan>
-    <tspan x="66" dy="17">scope, compute budget,</tspan>
-    <tspan x="66" dy="17">success bar, and who is</tspan>
-    <tspan x="66" dy="17">responsible for each part.</tspan>
+  <rect class="box blue" x="50" y="172" width="190" height="126" rx="8"/>
+  <circle class="slate" cx="70" cy="197" r="14"/>
+  <text class="step" x="70" y="201">01</text>
+  <text class="box-title" x="92" y="202">Set the rules</text>
+  <text class="box-text" x="66" y="232">
+    <tspan x="66" dy="0">Define the dataset,</tspan>
+    <tspan x="66" dy="18">study scope, budget,</tspan>
+    <tspan x="66" dy="18">success bar, and</tspan>
+    <tspan x="66" dy="18">responsibilities.</tspan>
   </text>
 
-  <path class="arrow" d="M254 293 H268"/>
+  <path class="arrow" d="M254 235 H268"/>
 
-  <rect class="box amber" x="282" y="224" width="190" height="138" rx="8"/>
-  <circle class="slate" cx="302" cy="249" r="14"/>
-  <text class="step" x="302" y="253">02</text>
-  <text class="box-title" x="324" y="254">Test ideas early</text>
-  <text class="box-text" x="298" y="286">
-    <tspan x="298" dy="0">Researcher agents inspect the</tspan>
-    <tspan x="298" dy="17">data, run small pilots, and</tspan>
-    <tspan x="298" dy="17">propose studies before larger</tspan>
-    <tspan x="298" dy="17">analysis starts.</tspan>
+  <rect class="box amber" x="282" y="172" width="190" height="126" rx="8"/>
+  <circle class="slate" cx="302" cy="197" r="14"/>
+  <text class="step" x="302" y="201">02</text>
+  <text class="box-title" x="324" y="202">Test ideas early</text>
+  <text class="box-text" x="298" y="232">
+    <tspan x="298" dy="0">Researchers inspect</tspan>
+    <tspan x="298" dy="18">the data, run pilots,</tspan>
+    <tspan x="298" dy="18">and propose studies</tspan>
+    <tspan x="298" dy="18">before full analysis.</tspan>
   </text>
 
-  <path class="arrow" d="M486 293 H500"/>
+  <path class="arrow" d="M486 235 H500"/>
 
-  <rect class="box green" x="514" y="224" width="190" height="138" rx="8"/>
-  <circle class="slate" cx="534" cy="249" r="14"/>
-  <text class="step" x="534" y="253">03</text>
-  <text class="box-title" x="556" y="254">Run studies</text>
-  <text class="box-text" x="530" y="286">
-    <tspan x="530" dy="0">Each Researcher creates its</tspan>
-    <tspan x="530" dy="17">own analysis, results, figures,</tspan>
-    <tspan x="530" dy="17">manuscript draft, and reading</tspan>
-    <tspan x="530" dy="17">package.</tspan>
+  <rect class="box green" x="514" y="172" width="190" height="126" rx="8"/>
+  <circle class="slate" cx="534" cy="197" r="14"/>
+  <text class="step" x="534" y="201">03</text>
+  <text class="box-title" x="556" y="202">Run studies</text>
+  <text class="box-text" x="530" y="232">
+    <tspan x="530" dy="0">Each Researcher</tspan>
+    <tspan x="530" dy="18">creates analysis,</tspan>
+    <tspan x="530" dy="18">results, figures, and</tspan>
+    <tspan x="530" dy="18">a draft package.</tspan>
   </text>
 
-  <path class="arrow" d="M718 293 H732"/>
+  <path class="arrow" d="M718 235 H732"/>
 
-  <rect class="box rose" x="746" y="224" width="190" height="138" rx="8"/>
-  <circle class="slate" cx="766" cy="249" r="14"/>
-  <text class="step" x="766" y="253">04</text>
-  <text class="box-title" x="788" y="254">Review and improve</text>
-  <text class="box-text" x="762" y="286">
-    <tspan x="762" dy="0">Integrity checks and Referees</tspan>
-    <tspan x="762" dy="17">ask concrete questions tied to</tspan>
-    <tspan x="762" dy="17">files, results, and missing</tspan>
-    <tspan x="762" dy="17">evidence.</tspan>
+  <rect class="box rose" x="746" y="172" width="190" height="126" rx="8"/>
+  <circle class="slate" cx="766" cy="197" r="14"/>
+  <text class="step" x="766" y="201">04</text>
+  <text class="box-title" x="788" y="202">Review and improve</text>
+  <text class="box-text" x="762" y="232">
+    <tspan x="762" dy="0">Integrity checks and</tspan>
+    <tspan x="762" dy="18">Referees ask</tspan>
+    <tspan x="762" dy="18">file-linked questions</tspan>
+    <tspan x="762" dy="18">for revisions.</tspan>
   </text>
 
-  <path class="arrow" d="M950 293 H964"/>
+  <path class="arrow" d="M950 235 H964"/>
 
-  <rect class="box violet" x="978" y="224" width="190" height="138" rx="8"/>
-  <circle class="slate" cx="998" cy="249" r="14"/>
-  <text class="step" x="998" y="253">05</text>
-  <text class="box-title" x="1020" y="254">Ship a decision</text>
-  <text class="box-text" x="994" y="286">
-    <tspan x="994" dy="0">The Editor compares the</tspan>
-    <tspan x="994" dy="17">evidence, freezes the record,</tspan>
-    <tspan x="994" dy="17">and accepts, downgrades, or</tspan>
-    <tspan x="994" dy="17">rejects the output.</tspan>
+  <rect class="box violet" x="978" y="172" width="190" height="126" rx="8"/>
+  <circle class="slate" cx="998" cy="197" r="14"/>
+  <text class="step" x="998" y="201">05</text>
+  <text class="box-title" x="1020" y="202">Ship a decision</text>
+  <text class="box-text" x="994" y="232">
+    <tspan x="994" dy="0">The Editor freezes</tspan>
+    <tspan x="994" dy="18">the record, compares</tspan>
+    <tspan x="994" dy="18">evidence, and decides.</tspan>
   </text>
 
-  <path class="arrow-dashed" d="M841 372 V414 H609 V372"/>
-  <text class="loop-label" x="725" y="403">review questions drive revisions</text>
+  <path class="arrow-dashed" d="M841 308 V350 H609 V308"/>
+  <text class="loop-label" x="725" y="340">review questions drive revisions</text>
 
-  <rect class="slate" x="116" y="428" width="992" height="34" rx="8"/>
-  <text class="bar-text" x="612" y="450">No hidden master script: researchers, reviewers, auditors, and editor each leave their own visible record.</text>
+  <rect class="slate" x="116" y="368" width="992" height="36" rx="8"/>
+  <text class="bar-text" x="612" y="391">Every role leaves a visible record: Researchers, reviewers, auditors, and the Editor.</text>
 
-  <text class="section" x="612" y="500">QUALITY CONTROLS</text>
-  <line class="line" x1="116" y1="512" x2="1108" y2="512"/>
+  <text class="section" x="612" y="450">QUALITY CONTROLS</text>
+  <line class="line" x1="116" y1="463" x2="1108" y2="463"/>
 
-  <rect class="box blue" x="116" y="538" width="280" height="120" rx="8"/>
-  <text class="box-title" x="132" y="567">Automatic checks</text>
-  <text class="box-text" x="132" y="598">
-    <tspan x="132" dy="0">Scripts verify files, hashes, reruns, package</tspan>
-    <tspan x="132" dy="17">contents, and whether the run happened in the</tspan>
-    <tspan x="132" dy="17">right order.</tspan>
+  <rect class="box blue" x="116" y="492" width="280" height="112" rx="8"/>
+  <text class="box-title" x="132" y="521">Automatic checks</text>
+  <text class="box-text" x="132" y="551">
+    <tspan x="132" dy="0">Scripts check files, hashes,</tspan>
+    <tspan x="132" dy="18">reruns, packages, and</tspan>
+    <tspan x="132" dy="18">run order.</tspan>
   </text>
 
-  <path class="arrow" d="M420 598 H448"/>
+  <path class="arrow" d="M428 548 H444"/>
 
-  <rect class="box green" x="472" y="538" width="280" height="120" rx="8"/>
-  <text class="box-title" x="488" y="567">Expert-style review</text>
-  <text class="box-text" x="488" y="598">
-    <tspan x="488" dy="0">LLM agents judge whether the study is</tspan>
-    <tspan x="488" dy="17">meaningful, original enough, well reviewed, and</tspan>
-    <tspan x="488" dy="17">honest about limits.</tspan>
+  <rect class="box green" x="472" y="492" width="280" height="112" rx="8"/>
+  <text class="box-title" x="488" y="521">Expert-style review</text>
+  <text class="box-text" x="488" y="551">
+    <tspan x="488" dy="0">Agents judge whether the</tspan>
+    <tspan x="488" dy="18">study is useful, supported,</tspan>
+    <tspan x="488" dy="18">and honest.</tspan>
   </text>
 
-  <path class="arrow" d="M776 598 H804"/>
+  <path class="arrow" d="M784 548 H800"/>
 
-  <rect class="box violet" x="828" y="538" width="280" height="120" rx="8"/>
-  <text class="box-title" x="844" y="567">Verified handoff</text>
-  <text class="box-text" x="844" y="598">
-    <tspan x="844" dy="0">A freeze record locks the evidence before the</tspan>
-    <tspan x="844" dy="17">Editor decides; the final package is ready to read</tspan>
-    <tspan x="844" dy="17">and audit.</tspan>
+  <rect class="box violet" x="828" y="492" width="280" height="112" rx="8"/>
+  <text class="box-title" x="844" y="521">Verified handoff</text>
+  <text class="box-text" x="844" y="551">
+    <tspan x="844" dy="0">A freeze record locks</tspan>
+    <tspan x="844" dy="18">the evidence before</tspan>
+    <tspan x="844" dy="18">the final decision.</tspan>
   </text>
 </svg>
