@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1224" height="792" viewBox="0 0 1224 792" role="img" aria-labelledby="title desc">
+  <title id="title">What Research Arena Provides</title>
+  <desc id="desc">A simple workflow schematic showing that Research Arena helps users set rules, test ideas early, run studies, review and improve evidence, ship a decision, and apply automatic checks, expert-style review, and verified handoff.</desc>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#52606A"/>
+    </marker>
+    <style>
+      .bg { fill: #ffffff; }
+      .ink { fill: #19242B; }
+      .muted { fill: #58656E; }
+      .line { stroke: #CBD2D6; stroke-width: 1.1; }
+      .arrow { stroke: #52606A; stroke-width: 1.4; fill: none; marker-end: url(#arrowhead); }
+      .arrow-dashed { stroke: #52606A; stroke-width: 1.4; fill: none; stroke-dasharray: 4 4; marker-end: url(#arrowhead); }
+      .box { stroke: #CBD2D6; stroke-width: 1.2; }
+      .blue { fill: #DCEAF7; }
+      .green { fill: #DFF0E7; }
+      .amber { fill: #F6E3BE; }
+      .rose { fill: #F3DAD5; }
+      .violet { fill: #E5DDF4; }
+      .slate { fill: #253746; }
+      .title { font: 700 32px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #19242B; }
+      .subtitle { font: 400 14px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #58656E; }
+      .section { font: 700 11px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #58656E; text-anchor: middle; }
+      .step { font: 700 10px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #ffffff; text-anchor: middle; }
+      .box-title { font: 700 16px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #19242B; }
+      .box-text { font: 400 14px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #58656E; }
+      .loop-label { font: 400 11px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #58656E; text-anchor: middle; }
+      .bar-text { font: 700 12px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #ffffff; text-anchor: middle; }
+      .logo-dark { font: 800 30px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #1F2937; }
+      .logo-blue { font: 800 30px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #2C7FB8; }
+      .logo-sub { font: 800 8px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #4B5563; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1224" height="792"/>
+
+  <text class="title" x="56" y="58">What Research Arena Provides</text>
+  <text class="subtitle" x="56" y="86">A structured way to run agent-based research: set the rules, test ideas, build evidence, review it, and deliver a verified output.</text>
+
+  <text class="logo-dark" x="939" y="90">ΔE</text>
+  <line x1="1009" y1="45" x2="1009" y2="115" stroke="#D7E3EC" stroke-width="1.4"/>
+  <text class="logo-dark" x="1029" y="66">Research</text>
+  <text class="logo-blue" x="1029" y="94">Arena</text>
+  <text class="logo-sub" x="1030" y="116">EVIDENCE GAIN</text>
+
+  <text class="section" x="612" y="130">RESEARCH WORKFLOW</text>
+  <line class="line" x1="56" y1="142" x2="1168" y2="142"/>
+
+  <rect class="box blue" x="50" y="224" width="190" height="138" rx="8"/>
+  <circle class="slate" cx="70" cy="249" r="14"/>
+  <text class="step" x="70" y="253">01</text>
+  <text class="box-title" x="92" y="254">Set the rules</text>
+  <text class="box-text" x="66" y="286">
+    <tspan x="66" dy="0">Define the dataset, study</tspan>
+    <tspan x="66" dy="17">scope, compute budget,</tspan>
+    <tspan x="66" dy="17">success bar, and who is</tspan>
+    <tspan x="66" dy="17">responsible for each part.</tspan>
+  </text>
+
+  <path class="arrow" d="M254 293 H268"/>
+
+  <rect class="box amber" x="282" y="224" width="190" height="138" rx="8"/>
+  <circle class="slate" cx="302" cy="249" r="14"/>
+  <text class="step" x="302" y="253">02</text>
+  <text class="box-title" x="324" y="254">Test ideas early</text>
+  <text class="box-text" x="298" y="286">
+    <tspan x="298" dy="0">Researcher agents inspect the</tspan>
+    <tspan x="298" dy="17">data, run small pilots, and</tspan>
+    <tspan x="298" dy="17">propose studies before larger</tspan>
+    <tspan x="298" dy="17">analysis starts.</tspan>
+  </text>
+
+  <path class="arrow" d="M486 293 H500"/>
+
+  <rect class="box green" x="514" y="224" width="190" height="138" rx="8"/>
+  <circle class="slate" cx="534" cy="249" r="14"/>
+  <text class="step" x="534" y="253">03</text>
+  <text class="box-title" x="556" y="254">Run studies</text>
+  <text class="box-text" x="530" y="286">
+    <tspan x="530" dy="0">Each Researcher creates its</tspan>
+    <tspan x="530" dy="17">own analysis, results, figures,</tspan>
+    <tspan x="530" dy="17">manuscript draft, and reading</tspan>
+    <tspan x="530" dy="17">package.</tspan>
+  </text>
+
+  <path class="arrow" d="M718 293 H732"/>
+
+  <rect class="box rose" x="746" y="224" width="190" height="138" rx="8"/>
+  <circle class="slate" cx="766" cy="249" r="14"/>
+  <text class="step" x="766" y="253">04</text>
+  <text class="box-title" x="788" y="254">Review and improve</text>
+  <text class="box-text" x="762" y="286">
+    <tspan x="762" dy="0">Integrity checks and Referees</tspan>
+    <tspan x="762" dy="17">ask concrete questions tied to</tspan>
+    <tspan x="762" dy="17">files, results, and missing</tspan>
+    <tspan x="762" dy="17">evidence.</tspan>
+  </text>
+
+  <path class="arrow" d="M950 293 H964"/>
+
+  <rect class="box violet" x="978" y="224" width="190" height="138" rx="8"/>
+  <circle class="slate" cx="998" cy="249" r="14"/>
+  <text class="step" x="998" y="253">05</text>
+  <text class="box-title" x="1020" y="254">Ship a decision</text>
+  <text class="box-text" x="994" y="286">
+    <tspan x="994" dy="0">The Editor compares the</tspan>
+    <tspan x="994" dy="17">evidence, freezes the record,</tspan>
+    <tspan x="994" dy="17">and accepts, downgrades, or</tspan>
+    <tspan x="994" dy="17">rejects the output.</tspan>
+  </text>
+
+  <path class="arrow-dashed" d="M841 372 V414 H609 V372"/>
+  <text class="loop-label" x="725" y="403">review questions drive revisions</text>
+
+  <rect class="slate" x="116" y="428" width="992" height="34" rx="8"/>
+  <text class="bar-text" x="612" y="450">No hidden master script: researchers, reviewers, auditors, and editor each leave their own visible record.</text>
+
+  <text class="section" x="612" y="500">QUALITY CONTROLS</text>
+  <line class="line" x1="116" y1="512" x2="1108" y2="512"/>
+
+  <rect class="box blue" x="116" y="538" width="280" height="120" rx="8"/>
+  <text class="box-title" x="132" y="567">Automatic checks</text>
+  <text class="box-text" x="132" y="598">
+    <tspan x="132" dy="0">Scripts verify files, hashes, reruns, package</tspan>
+    <tspan x="132" dy="17">contents, and whether the run happened in the</tspan>
+    <tspan x="132" dy="17">right order.</tspan>
+  </text>
+
+  <path class="arrow" d="M420 598 H448"/>
+
+  <rect class="box green" x="472" y="538" width="280" height="120" rx="8"/>
+  <text class="box-title" x="488" y="567">Expert-style review</text>
+  <text class="box-text" x="488" y="598">
+    <tspan x="488" dy="0">LLM agents judge whether the study is</tspan>
+    <tspan x="488" dy="17">meaningful, original enough, well reviewed, and</tspan>
+    <tspan x="488" dy="17">honest about limits.</tspan>
+  </text>
+
+  <path class="arrow" d="M776 598 H804"/>
+
+  <rect class="box violet" x="828" y="538" width="280" height="120" rx="8"/>
+  <text class="box-title" x="844" y="567">Verified handoff</text>
+  <text class="box-text" x="844" y="598">
+    <tspan x="844" dy="0">A freeze record locks the evidence before the</tspan>
+    <tspan x="844" dy="17">Editor decides; the final package is ready to read</tspan>
+    <tspan x="844" dy="17">and audit.</tspan>
+  </text>
+</svg>
